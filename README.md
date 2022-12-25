@@ -1,4 +1,4 @@
-## 🥷🏻🎸⛓️ mev rust: playing pvp in the metaweb
+## 🥷🏻🎸⛓️ playing pvp in the metaweb: rust edition
 
 <br>
 
