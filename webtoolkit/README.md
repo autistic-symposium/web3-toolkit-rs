@@ -12,5 +12,22 @@ an on-going development of a library and set of rust scripts with my fav on-chai
 
 ```
 cp .env.example .env
+vim .env
+```
+
+<br>
+
+----
+
+### running
+
+##### dev
+
+cargo commands are encoded in the `Makefile`:
+
+```
+make run
+make build
+make check
 ```
 
