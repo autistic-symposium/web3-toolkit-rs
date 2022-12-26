@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=src/solidity.lalrpop
+processing file `src/solidity.lalrpop`

@@ -1,0 +1,11 @@
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/unicode_segmentation-ea7f26c1028ea7ea.rmeta: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/libunicode_segmentation-ea7f26c1028ea7ea.rlib: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/unicode_segmentation-ea7f26c1028ea7ea.d: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs
+
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs:

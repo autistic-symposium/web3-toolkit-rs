@@ -1,0 +1,12 @@
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/svm_lib-2ceda4183247f506.rmeta: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/error.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/platform.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/releases.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-arm64-old.json /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-aarch64.json
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/libsvm_lib-2ceda4183247f506.rlib: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/error.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/platform.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/releases.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-arm64-old.json /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-aarch64.json
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/svm_lib-2ceda4183247f506.d: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/error.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/platform.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/releases.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-arm64-old.json /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-aarch64.json
+
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/lib.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/error.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/platform.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/releases.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-arm64-old.json:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/svm-rs-0.2.18/src/../list/linux-aarch64.json:

@@ -1,0 +1,11 @@
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/coins_bip39-5afe25ba71c9cb73.rmeta: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/libcoins_bip39-5afe25ba71c9cb73.rlib: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/coins_bip39-5afe25ba71c9cb73.d: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt
+
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/lib.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/mnemonic.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/mod.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/english.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/coins-bip39-0.7.0/src/wordlist/./words/english.txt:

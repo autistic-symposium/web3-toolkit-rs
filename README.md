@@ -4,12 +4,20 @@
 
 ### tl; dr 
 
-* ahead-of-time compiled language (compiling and running are separated steps)
+##### why rust
+
+* ahead-of-time compiled language (compiling and running are separate steps)
 * easy control of low-level assets (such as memory usage)
-* better visibility for concurrency bugs
+* better visibility for concurrency bugs.
+
+##### features
+
+* a crate is a compilation unit in Rust (i.e. file.rs is a crate file).
+* paths in `use` statements are relative to the current module, unless they begin with the name of a crate.
 * `println!` is a macro, not a function (strings are checked at compile-time)
 * `::` syntax indicates that the right side is an associated function of the left side (static method)
-
+* you can always run `cargo check` to validate your code, folder structure, etc. 
+* you can alwas run `rustc --explain <error>` to understand errors.
 
 
 <br>
@@ -49,3 +57,4 @@
 ##### libraries
 
 * [web3 rust library](https://github.com/tomusdrw/rust-web3)
+* [tokio async library](https://tokio.rs/tokio/tutorial/async)

@@ -1,0 +1,11 @@
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/futures_channel-f18e4c72c496b455.rmeta: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/libfutures_channel-f18e4c72c496b455.rlib: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/Users/mia/src/web3-rust/webtoolkit/target/debug/deps/futures_channel-f18e4c72c496b455.d: /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs:
+/Users/mia/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs:
