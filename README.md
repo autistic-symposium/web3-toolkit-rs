@@ -26,9 +26,8 @@
 
 ### in this repo
 
-* [📚 web3-toolkit](web3_toolkit)
+* [📚 web3-toolkit](web3toolkit)
     - an ongoing development of a library and set of rust scripts with my fav on-chain ops.
-
 <br>
 
 

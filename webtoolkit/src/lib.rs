@@ -10,7 +10,7 @@ mod utils;
 
 
 
-pub async fn run() -> web3::Result<()> {
+async fn accounts() -> web3::Result<()> {
 
     let websocket = web3::transports::WebSocket::new(&env::var("PROVIDER_URL_WS").unwrap()).await?;
     let web3s = web3::Web3::new(websocket);
@@ -27,6 +27,14 @@ pub async fn run() -> web3::Result<()> {
     
     Ok(())
 }
+
+pub async fn run() {
+
+    let result = accounts().await;
+    println!("✅ accounts() finalized: {:?}", result);
+
+}
+
 
 
 
