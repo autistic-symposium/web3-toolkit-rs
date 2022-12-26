@@ -1,4 +1,4 @@
-name: validate links
+name: 👾 validate links
 
 on: [push, pull_request]
 
