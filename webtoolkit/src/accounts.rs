@@ -7,6 +7,18 @@ use web3::types::{H160};
 use crate::helpers::wei_to_eth;
 
 
+pub type Transport = web3::transports::Either<web3::transports::WebSocket, web3::transports::Http>;
+
+
+async fn transport() -> web3::Result {
+
+    let transport = web3::transports::Http::new("http://localhost:8545")?;
+
+    run(web3::transports::Either::Right(transport)).await
+}
+
+
+
 pub async fn account_ws(account_address: &str) -> web3::Result<()> {
 
     let transport = web3::transports::WebSocket::new(&env::var("PROVIDER_URL_WS").unwrap()).await?;
@@ -45,3 +57,4 @@ pub async fn account_http(account_address: &str) -> web3::Result<()> {
     Ok(())
 
 }
+
