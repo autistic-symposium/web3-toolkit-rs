@@ -40,6 +40,7 @@
 
 ##### libraries
 
+* [rust standard library](https://doc.rust-lang.org/std/index.html)
 * [web3 rust library](https://github.com/tomusdrw/rust-web3)
 * [tokio async library](https://tokio.rs/tokio/tutorial/async)
 
@@ -49,3 +50,4 @@
 
 * [ether.rs](https://github.com/gakonst/ethers-rs): an ethereum and celo wallet implementation in rust.
 * [evm](https://github.com/rust-blockchain/evm): pure ruse implementation
+* [foundry](https://github.com/foundry-rs/foundry)
