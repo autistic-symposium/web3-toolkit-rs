@@ -10,16 +10,10 @@ pub mod helpers;
 
 pub async fn run() {
     
-    let addreses = &env::var("ACCOUNT_ADDRESS").unwrap();
-
-    let result_ws = accounts::account_ws(addreses).await;
-    println!("✅ account_ws() finalized: {:?}", result_ws);
-
-    let result_http = accounts::account_http(addreses).await;
-    println!("✅ account_http() finalized: {:?}", result_http);
+    // TODO: get an array of addresses instead of a str
+    let addresses = &env::var("ACCOUNTS_LIST").unwrap();
+    
+    accounts::web3_connect(&env::var("PROVIDER_URL_WS").unwrap(), addresses).await;
+    accounts::web3_connect(&env::var("PROVIDER_URL_HTTP").unwrap(), addresses).await;
 
 }
-
-
-
-

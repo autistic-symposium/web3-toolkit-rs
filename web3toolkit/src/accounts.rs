@@ -1,41 +1,30 @@
 // acccounts.rs - author: steinkirch
 // methods for wallets and accounts
 
-use std::env;
 use std::str::FromStr;
 use web3::types::{H160};
+
 use crate::helpers::wei_to_eth;
 
+pub type Transport = web3::transports::Either<web3::transports::WebSocket, web3::transports::Http>;
 
-pub async fn account_ws(account_address: &str) -> web3::Result<()> {
 
-    let transport = web3::transports::WebSocket::new(&env::var("PROVIDER_URL_WS").unwrap()).await?;
-    let web3s = web3::Web3::new(transport);
+pub async fn web3_connect(provider_url: &str, account_address: &str) -> web3::Result {
 
-    #[warn(unused_must_use)]
-    let mut accounts = web3s.eth().accounts().await?;
-    accounts.push(H160::from_str(account_address).unwrap());
-    println!("✅ retrieving balances [ws]...");
-
-    for account in accounts {
-        let balance = web3s.eth().balance(account, None).await?;
-        println!("  - 💰 for {:?}: {} eth", account, wei_to_eth(balance));
-    }
-    
-    Ok(())
+    println!("✅ connecting to {:?}", provider_url);
+    let transport = web3::transports::Http::new(provider_url)?;
+    get_accounts(web3::transports::Either::Right(transport), account_address).await
 
 }
 
 
-pub async fn account_http(account_address: &str) -> web3::Result<()> {
+async fn get_accounts(transport: Transport, account_address: &str) -> web3::Result<()> {
 
-    let transport = web3::transports::Http::new(&env::var("PROVIDER_URL_HTTP").unwrap())?;
     let web3s = web3::Web3::new(transport);
 
-    #[warn(unused_must_use)]
     let mut accounts = web3s.eth().accounts().await?;
     accounts.push(H160::from_str(account_address).unwrap());
-    println!("✅ retrieving balances [http]...");
+    println!("✅ retrieving balances:");
 
     for account in accounts {
         let balance = web3s.eth().balance(account, None).await?;

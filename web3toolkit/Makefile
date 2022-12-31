@@ -1,4 +1,4 @@
-.PHONY: run build
+.PHONY: run build check clean
 
 build:
 	cargo build
@@ -8,3 +8,6 @@ run:
 
 check:
 	cargo check
+
+clean:
+	cargo clean
