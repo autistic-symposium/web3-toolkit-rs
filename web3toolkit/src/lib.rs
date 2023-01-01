@@ -4,16 +4,18 @@
 
 use std::env;
 
-pub mod accounts;
 pub mod helpers;
-
+pub mod web3stuff;
 
 pub async fn run() {
     
     // TODO: get an array of addresses instead of a str
     let addresses = &env::var("ACCOUNTS_LIST").unwrap();
-    
-    accounts::web3_connect(&env::var("PROVIDER_URL_WS").unwrap(), addresses).await;
-    accounts::web3_connect(&env::var("PROVIDER_URL_HTTP").unwrap(), addresses).await;
+    let provider_ws = &env::var("PROVIDER_URL_WS").unwrap();
+    let provider_http = &env::var("PROVIDER_URL_HTTP").unwrap();   
+
+    //let _accounts_ws = web3stuff::web3_connect(provider_ws, addresses).await;
+    let accounts_http = web3stuff::web3_connect(provider_http, addresses).await;
+
 
 }

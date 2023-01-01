@@ -51,4 +51,4 @@
 * [ether.rs](https://github.com/gakonst/ethers-rs): an ethereum and celo wallet implementation in rust.
 * [evm](https://github.com/rust-blockchain/evm): pure ruse implementation
 * [foundry](https://github.com/foundry-rs/foundry): modular toolkit for ethereum applications
-* [lighthouse](git@github.com:go-outside-labs/web3-rust.git): an ethereum consensus client
+* [lighthouse](https://github.com/sigp/lighthouse): an ethereum consensus client
