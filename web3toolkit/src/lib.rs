@@ -20,4 +20,8 @@ pub async fn run() {
     // TEST ws
     web3stuff::web3_connect_ws(provider_ws, addresses).await;
 
+    // TEST batches
+    web3stuff::web3_connect_batch(provider_http, addresses).await;
+
+
 }
