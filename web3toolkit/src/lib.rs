@@ -14,8 +14,10 @@ pub async fn run() {
     let provider_ws = &env::var("PROVIDER_URL_WS").unwrap();
     let provider_http = &env::var("PROVIDER_URL_HTTP").unwrap();   
 
-    //let _accounts_ws = web3stuff::web3_connect(provider_ws, addresses).await;
-    let accounts_http = web3stuff::web3_connect(provider_http, addresses).await;
+    // TEST either ws/http
+    web3stuff::web3_connect_either(provider_http, addresses).await;
 
+    // TEST ws
+    web3stuff::web3_connect_ws(provider_ws, addresses).await;
 
 }
