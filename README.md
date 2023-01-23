@@ -43,6 +43,8 @@
 * [rust standard library](https://doc.rust-lang.org/std/index.html)
 * [web3 rust library](https://github.com/tomusdrw/rust-web3)
 * [tokio async library](https://tokio.rs/tokio/tutorial/async)
+* [google comprehensive rust course](https://github.com/google/comprehensive-rust)
+
 
 <br>
 
