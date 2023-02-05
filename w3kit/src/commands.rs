@@ -3,7 +3,7 @@ use std::fmt;
 
 #[derive(Debug, Parser)]
 #[clap(name = "web3toolkit")]
-#[clap(about = "A toolkit for many blockchains.")]
+#[clap(about = "A toolkit for the blockchains.")]
 pub struct Cli {
     #[clap(subcommand)]
     pub command: Commands,

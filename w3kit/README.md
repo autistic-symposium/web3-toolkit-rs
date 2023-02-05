@@ -1,11 +1,54 @@
-## 📚 web3-toolkit-rs
+## 🕹 web3-toolkit-rs
 
 <br>
 
-##### this package contains an ongoing library and set of rust scripts for the blockchains.
+### tl;dr 
 
 <br>
 
+* 🛠 this package contains an ongoing library and set of rust scripts for the blockchains.
+* 💡 for a rusty boilerplate for running stat searchers, check [coingator](https://github.com/go-outside-labs/searcher-coingator-rs).
+
+<br>
+
+----
+
+### overview
+
+
+
+
+<br>
+
+---
+
+### setting up
+
+<br>
+
+set config info in a `.env` file:
+
+```
+cp .env.example .env
+vim .env
+```
+
+<br>
+
+build the library ([cargo](https://doc.rust-lang.org/cargo/) commands are encoded in the `Makefile`):
+
+```
+make build
+```
+
+<br>
+
+
+----
+
+### features
+
+<br>
 #### ethereum-toolkit
 
 * [connect to ethereum through http, websockets, or batching](src/ethereum/connections.rs)
@@ -61,27 +104,6 @@
 
 ---
 
-### setting up
 
-<br>
-
-set config info in a `.env` file:
-
-```
-cp .env.example .env
-vim .env
-```
-
-<br>
-
-build the library ([cargo](https://doc.rust-lang.org/cargo/) commands are encoded in the `Makefile`):
-
-```
-make build
-```
-
-<br>
-
-----
 
 ### running

@@ -3,7 +3,7 @@
 <br>
 
 
-### go outside labs rust resources
+### go-outside-labs rust resources
 
 <br>
 
@@ -11,15 +11,14 @@
 
 <br>
 
-* **[📚 web3-toolkit-rs](web3toolkit)**
-    - ongoing development of a library and set of rust scripts with my fav on-chain ops: ethereum etl, websockets, dexs and cexs retrieval, and more.
-    - this package is published in [crates.io](https://crates.io/crates/web3toolkit) and can be imported as a library with `cargo add web3toolkit`.
+* **[📚 web3-toolkit-rs](w3kit)**
+    - **w3kit** is an ongoing development of a library for on-chain ops on several blockchains.
+    - this package (crate) is published in [crates.io](https://crates.io/crates/w3kit) and can be imported as a library with `cargo add w3kit`.
 
 <br>
 
 * **[🤖 coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**
     - a rusty boilerplate for building and running statistical searchers.
-    - it includes features such as: websocket monitoring monitoring for, tx and calldata decoders, and boilerplates for searchers.
 
 <br>
 
