@@ -3,7 +3,7 @@ use std::fmt;
 
 #[derive(Debug, Parser)]
 #[clap(name = "w3kit")]
-#[clap(about = "A toolkit for the blockchains.")]
+#[clap(about = "🕹✨ a rusty toolkit for the blockchains ✨🕹")]
 pub struct Cli {
     #[clap(subcommand)]
     pub command: Commands,
@@ -12,12 +12,12 @@ pub struct Cli {
 #[derive(Debug, Subcommand)]
 pub enum Commands {
     #[clap(arg_required_else_help = true)]
-    Ethereum(EthereumArg),
     Arbitrum(ArbitrumArg),
     Avalanche(AvalancheArg),
+    Ethereum(EthereumArg),
     Near(NearArg),
-    Optimism(OptimismArg),
     Polygon(PolygonArg),
+    Optimism(OptimismArg),
     Solana(SolanaArg),
 }
 

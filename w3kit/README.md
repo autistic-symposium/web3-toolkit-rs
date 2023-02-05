@@ -48,6 +48,7 @@ make build
 ### features
 
 <br>
+
 #### ethereum-toolkit
 
 * [connect to ethereum through http, websockets, or batching](src/ethereum/connections.rs)
@@ -101,8 +102,3 @@ make build
 
 
 
----
-
-
-
-### running
