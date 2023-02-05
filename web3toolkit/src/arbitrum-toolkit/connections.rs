@@ -1,4 +1,4 @@
-// solana/connections.rs - author: steinkirch
+// arbitrum-toolkit/connections.rs - author: steinkirch
 // methods for wallets and accounts
 
 

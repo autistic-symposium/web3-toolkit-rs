@@ -1,4 +1,4 @@
-// ethereum/connections.rs - author: steinkirch
+// ethereum-toolkit/connections.rs - author: steinkirch
 // methods for connecting to the chain through http or ws
 
 use std::str::FromStr;

@@ -1,4 +1,4 @@
-// ethereum/acccounts.rs - author: steinkirch
+// ethereum-toolkit/acccounts.rs - author: steinkirch
 // methods for wallets and accounts
 
 use std::str::FromStr;

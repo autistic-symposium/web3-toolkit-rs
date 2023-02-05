@@ -7,17 +7,19 @@
 
 <br>
 
-* **start with [rust tl; dr](rust_tldr.md)**
+* **💡 start with [rust tl; dr](rust_tldr.md)**
 
 <br>
 
-* **[📚 web3-toolkit-rs](web3-toolkit-rs)**
+* **[📚 web3-toolkit-rs](web3toolkit)**
     - ongoing development of a library and set of rust scripts with my fav on-chain ops: ethereum etl, websockets, dexs and cexs retrieval, and more.
+    - this package is published in [crates.io](https://crates.io/crates/web3toolkit) and can be imported as a library with `cargo add web3toolkit`.
 
 <br>
 
-* **[🤖 coingator: a rusty statistical searcher toolkit](https://github.com/go-outside-labs/searcher-coingator-rs)**
-    - toolkit for building statistical searchers, including websocket monitoring of CEXs, public mempool monitoring, tx and calldata decoders, and boilerplates for searchers.
+* **[🤖 coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**
+    - a rusty toolkit for building and running statistical searchers.
+    - it includes features such as: websocket monitoring monitoring for, tx and calldata decoders, and boilerplates for searchers.
 
 <br>
 
@@ -54,6 +56,7 @@
 * [web3 rust library](https://github.com/tomusdrw/rust-web3)
 * [tokio async library](https://tokio.rs/tokio/tutorial/async)
 * [google comprehensive rust course](https://github.com/google/comprehensive-rust)
+* [publishing a crate in crate.ios](https://doc.rust-lang.org/cargo/reference/publishing.html)
 
 
 <br>
@@ -61,6 +64,13 @@
 #### error handling
 
 * [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
+
+<br>
+
+#### tests
+
+* [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
+
 
 <br>
 

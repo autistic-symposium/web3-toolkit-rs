@@ -1,9 +1,8 @@
-// near/connections.rs - author: steinkirch
+// solana-toolkit/connections.rs - author: steinkirch
 // methods for wallets and accounts
 
 
 use std::str::FromStr;
-
 
 
 pub async fn connect_ws(provider_url: &str, addresses: &str)  {

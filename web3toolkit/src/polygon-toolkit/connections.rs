@@ -1,4 +1,4 @@
-// avalanche/connections.rs - author: steinkirch
+// polygon-toolkit/connections.rs - author: steinkirch
 // methods for wallets and accounts
 
 

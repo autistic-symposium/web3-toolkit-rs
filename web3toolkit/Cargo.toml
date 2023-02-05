@@ -1,0 +1,15 @@
+[package]
+name = "web3toolkit"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description="A toolkit for many blockchains."
+
+[dependencies]
+reqwest = "0.11.10"
+web3 = "0.18.0"
+dotenv = "0.15.0"
+ethers = {version = "1.0.2", git = "https://github.com/gakonst/ethers-rs", features = ["ws", "rustls", "abigen"] }
+tokio = { version = "1.5", features = ["macros", "rt-multi-thread"] }
+
+
