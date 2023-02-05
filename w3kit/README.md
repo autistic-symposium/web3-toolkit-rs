@@ -78,53 +78,53 @@ note that all [cargo](https://doc.rust-lang.org/cargo/) commands that are releva
 
 <br>
 
-#### ethereum-toolkit
+#### ethereum
 
-* [connect to ethereum through http, websockets, or batching](src/ethereum/connections.rs)
+* [connect to ethereum through http or websockets](src/ethereum/connections.rs)
 * [retrieve ethereum wallets or account information](src/ethereum/accounts.rs)
 
 <br>
 
 
-#### arbitrum-toolkit
+#### arbitrum
 
-* [connect to arbitrum through http, websockets, or batching](src/arbitrum/connections.rs)
+* [connect to arbitrum through http, websockets](src/arbitrum/connections.rs)
 * [retrieve arbitrum wallets or account information](src/arbitrum/accounts.rs)
 
 <br>
 
-#### avalanche-toolkit
+#### avalanche
 
-* [connect to avalanche through http, websockets, or batching](src/avalanche/connections.rs)
+* [connect to avalanche through http, websockets](src/avalanche/connections.rs)
 * [retrieve avalanche wallets or account information](src/avalanche/accounts.rs)
 
 <br>
 
-#### near-toolkit
+#### near
 
-* [connect to near through http, websockets, or batching](src/near/connections.rs)
+* [connect to near through http, websockets](src/near/connections.rs)
 * [retrieve near wallets or account information](src/near/accounts.rs)
 
 <br>
 
-#### optimism-toolkit
+#### optimism
 
-* [connect to optimism through http, websockets, or batching](src/optimism/connections.rs)
+* [connect to optimism through http, websockets](src/optimism/connections.rs)
 * [retrieve optimism wallets or account information](src/optimism/accounts.rs)
 
 <br>
 
-#### polygon-toolkit
+#### polygon
 
 * [connect to polygon through http, websockets, or batching](src/polygon/connections.rs)
 * [retrieve polygon wallets or account information](src/polygon/accounts.rs)
 
 <br>
 
-#### solana-toolkit
+#### solana
 
-* [connect to solana through http, websockets, or batching](src/solana/connections.rs)
+* [connect to solana through http, websockets](src/solana/connections.rs)
 * [retrieve solana wallets or account information](src/solana/accounts.rs)
 
-<br>
+
 

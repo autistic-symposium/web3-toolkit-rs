@@ -1,5 +1,6 @@
-// src/utils.rs - author: steinkirch
-// util methods
+// src/utils/maths.rs
+// author: steinkirch
+
 
 use web3::types::{U256};
 

@@ -1,26 +1,35 @@
-// src/main.rs - author: steinkirch
+// src/utils/commands.rs
+// author: steinkirch
+
+mod near;
+mod utils;
 
 use clap::Parser;
 
-use commands::Commands;
-use near::{ping};
+use utils::{CliEnum, CliStruct};
+use utils::{eth_handler, 
+            arbitrum_handler, 
+            avax_handler, 
+            near_handler, 
+            optimism_handler, 
+            polygon_handler, 
+            solana_handler};
 
-mod near;
-mod commands;
+
 
 
 fn main() {
 
     dotenv::dotenv().ok();
 
-    let args = commands::Cli::parse();
+    let args = CliStruct::parse();
     match args.command {
-        Commands::Ethereum(arg) => ping("aaaa"),
-        Commands::Arbitrum(arg) => ping("aaaa"),
-        Commands::Avalanche(arg) => ping("aaaa"),
-        Commands::Near(arg) => ping("aaaa"),
-        Commands::Optimism(arg) => ping("aaaa"),
-        Commands::Polygon(arg) => ping("aaaa"),
-        Commands::Solana(arg) => ping("aaaa"),
+        CliEnum::Ethereum(arg) => eth_handler(arg),
+        CliEnum::Arbitrum(arg) => arbitrum_handler(arg),
+        CliEnum::Avalanche(arg) => avax_handler(arg),
+        CliEnum::Near(arg) =>  near_handler(arg),
+        CliEnum::Optimism(arg) => optimism_handler(arg),
+        CliEnum::Polygon(arg) => polygon_handler(arg),
+        CliEnum::Solana(arg) => solana_handler(arg),
     }
 }
