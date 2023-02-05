@@ -8,11 +8,16 @@
 
 
 ----
-### in this repo
+### packages in this project
 
 * [📚 web3-rust-toolkit](web3toolkit)
     - an ongoing development of a library and set of rust scripts with my fav on-chain ops.
+
+* [🤖 coingator: a rusty statistical searcher toolkit]()
+    - toolkit for building statistical searchers, including websocket monitoring of CEXs, public mempool monitoring, tx and calldata decoders, and boilerplates for searchers.
+
 <br>
+
 
 
 ----
