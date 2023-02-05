@@ -15,6 +15,12 @@ fn main() {
 
     let args = commands::Cli::parse();
     match args.command {
-        Commands::Ticker(ticker_arg) => ping("aaaa"),
+        Commands::Ethereum(arg) => ping("aaaa"),
+        Commands::Arbitrum(arg) => ping("aaaa"),
+        Commands::Avalanche(arg) => ping("aaaa"),
+        Commands::Near(arg) => ping("aaaa"),
+        Commands::Optimism(arg) => ping("aaaa"),
+        Commands::Polygon(arg) => ping("aaaa"),
+        Commands::Solana(arg) => ping("aaaa"),
     }
 }

@@ -12,6 +12,15 @@ pub type WebSocket = web3::transports::WebSocket;
 
 
 
+pub fn ping(connect_arg: &str) {
+
+    println!("test: {:?}", connect_arg);
+    
+}
+
+
+
+
 pub async fn connect_ws(provider_url: &str, addresses: &str) -> web3::Result {
 
     println!("✅ connecting ws {:?}", provider_url);

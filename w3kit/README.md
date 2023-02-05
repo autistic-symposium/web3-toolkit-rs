@@ -1,13 +1,12 @@
-## 🕹 web3-toolkit-rs
-
+## 🕹 w3kit: a web3 toolkit in rust
 <br>
 
 ### tl;dr 
 
 <br>
 
-* 🛠 this package contains an ongoing library and set of rust scripts for the blockchains.
-* 💡 for a rusty boilerplate for running stat searchers, check [coingator](https://github.com/go-outside-labs/searcher-coingator-rs).
+* 🛠 **[this package](https://crates.io/crates/w3kit)** contains an ongoing library and set of rust scripts for the blockchains.
+* 💡 for a rusty boilerplate for running stat searchers, check **[coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**.
 
 <br>
 
@@ -22,7 +21,7 @@
 
 ---
 
-### setting up
+### install and setup
 
 <br>
 
