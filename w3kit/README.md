@@ -5,20 +5,17 @@
 
 <br>
 
-* 🛠 **[this package](https://crates.io/crates/w3kit)** contains an ongoing library and set of rust scripts for the blockchains.
+* 🛠 **[this package](https://crates.io/crates/w3kit)** contains an ongoing library and set of scripts for the blockchains.
 * 💡 for a rusty boilerplate for running stat searchers, check **[coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**.
 
 <br>
 
-----
-
-### overview
-
 <br>
-
 
 <img width="550" alt="Screen Shot 2023-02-05 at 12 33 12 PM" src="https://user-images.githubusercontent.com/1130416/216843363-da1460c8-7072-414b-8841-7776f3c42548.png">
 
+
+<br>
 
 <br>
 
@@ -28,20 +25,49 @@
 
 <br>
 
-set config info in a `.env` file:
+#### creating an `.env` file
+
+<br>
+
 
 ```
 cp .env.example .env
 vim .env
 ```
 
+and add the following info:
+
+```
+PROVIDER_URL_WS=
+PROVIDER_URL_HTTP=
+```
+
+
 <br>
 
-build the library ([cargo](https://doc.rust-lang.org/cargo/) commands are encoded in the `Makefile`):
+#### installing as a package
+
+<br>
+
+```
+cargo install w3kit
+```
+
+<br>
+
+#### building for development
+
+<br>
+
+to build the library from this [GitHub repository](https://github.com/go-outside-labs/web3-toolkit-rs/tree/main/w3kit) you can run:
 
 ```
 make build
 ```
+
+<br>
+
+note that all [cargo](https://doc.rust-lang.org/cargo/) commands that are relevant for this work are encoded in the `Makefile`.
 
 <br>
 
