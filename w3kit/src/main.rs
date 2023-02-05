@@ -6,16 +6,15 @@ mod utils;
 
 use clap::Parser;
 
-use utils::{CliEnum, CliStruct};
-use utils::{eth_handler, 
+use utils::{CliEnum, 
+            CliStruct,
+            eth_handler, 
             arbitrum_handler, 
             avax_handler, 
             near_handler, 
             optimism_handler, 
             polygon_handler, 
             solana_handler};
-
-
 
 
 fn main() {
