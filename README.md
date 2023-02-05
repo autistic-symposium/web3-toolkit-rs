@@ -18,7 +18,7 @@
 <br>
 
 * **[🤖 coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**
-    - a rusty toolkit for building and running statistical searchers.
+    - a rusty boilerplate for building and running statistical searchers.
     - it includes features such as: websocket monitoring monitoring for, tx and calldata decoders, and boilerplates for searchers.
 
 <br>
