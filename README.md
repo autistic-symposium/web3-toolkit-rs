@@ -12,7 +12,7 @@
 <br>
 
 * **[📚 web3-toolkit-rs](web3-toolkit-rs)**
-    - on-going development of a library and set of rust scripts with my fav on-chain ops: ethereum etl, websockets, dexs and cexs retrieval, and more.
+    - ongoing development of a library and set of rust scripts with my fav on-chain ops: ethereum etl, websockets, dexs and cexs retrieval, and more.
 
 <br>
 
@@ -31,7 +31,7 @@
 
 #### basics
 
-* [install](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/second-edition/ch01-01-installation.html)
+* [installing ](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/second-edition/ch01-01-installation.html) guide
 * [cargo](https://doc.rust-lang.org/cargo/): dep manager and build tool
 * [rustfmt](https://github.com/rust-lang/rustfmt): code style
 

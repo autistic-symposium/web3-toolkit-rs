@@ -1,4 +1,4 @@
-// acccounts.rs - author: steinkirch
+// ethereum/acccounts.rs - author: steinkirch
 // methods for wallets and accounts
 
 use std::str::FromStr;
@@ -34,7 +34,6 @@ async fn get_accounts(transport: Transport, account_address: &str) -> web3::Resu
     Ok(())
 
 }
-
 
 
 pub async fn get_accounts_ws(transport: WebSocket, addresses: &str) -> web3::Result {
@@ -91,4 +90,22 @@ pub async fn get_accounts_batches(transport: Http, addresses: &str) -> web3::Res
 
     Ok(())
 
+}
+
+
+pub async fn get_accounts_http(transport: Http, addresses: &str) -> web3::Result {
+
+    let w3 = web3::Web3::new(transport);
+    println!("✅ Tranport info: {:?}", w3);
+
+    let mut accounts = w3.eth().accounts().await?;
+    accounts.push(H160::from_str(addresses).unwrap());
+    println!("✅ retrieving balances:");
+
+    for account in accounts {
+        let balance = w3.eth().balance(account, None).await?;
+        println!("  - 💰 for {:?}: {} eth", account, wei_to_eth(balance));
+    }
+
+    Ok(())
 }

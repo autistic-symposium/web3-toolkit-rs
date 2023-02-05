@@ -1,5 +1,6 @@
-// lib.rs - author: steinkirch
-// libraries don't have entry points, but used for functionality sharing
+// src/lib.rs - author: steinkirch
+// note that in rust, libraries don't have entry points, 
+// but they are used for functionality sharing
 // https://doc.rust-lang.org/rust-by-example/crates/lib.html
 
 use std::env;

@@ -1,4 +1,4 @@
-// utils.rs - author: steinkirch
+// src/utils.rs - author: steinkirch
 // util methods
 
 use web3::types::{U256};

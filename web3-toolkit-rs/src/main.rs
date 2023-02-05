@@ -1,4 +1,4 @@
-// main.rs - author: steinkirch
+// src/main.rs - author: steinkirch
 
 use web3toolkit::run;
 
