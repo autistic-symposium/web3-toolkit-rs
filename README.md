@@ -3,7 +3,7 @@
 <br>
 
 
-### resources in this repo
+### go outside labs rust resources
 
 <br>
 
