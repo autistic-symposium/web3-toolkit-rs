@@ -53,6 +53,12 @@
 
 <br>
 
+##### error handling
+
+* [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
+
+<br>
+
 ##### study projects
 
 * [ether.rs](https://github.com/gakonst/ethers-rs): an ethereum and celo wallet implementation in rust.
