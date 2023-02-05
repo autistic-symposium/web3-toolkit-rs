@@ -12,7 +12,9 @@
 
 <br>
 
-<img width="550" alt="Screen Shot 2023-02-05 at 12 33 12 PM" src="https://user-images.githubusercontent.com/1130416/216843363-da1460c8-7072-414b-8841-7776f3c42548.png">
+
+<img width="550" src="https://user-images.githubusercontent.com/1130416/216848107-0f541895-7ed7-4d2d-969d-786781ee6037.png">
+
 
 
 <br>
