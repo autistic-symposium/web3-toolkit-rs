@@ -35,6 +35,7 @@
 * [installing ](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/second-edition/ch01-01-installation.html) guide
 * [cargo](https://doc.rust-lang.org/cargo/): dep manager and build tool
 * [rustfmt](https://github.com/rust-lang/rustfmt): code style
+* [rust standard library](https://doc.rust-lang.org/std/index.html)
 
 <br>
 
@@ -45,37 +46,34 @@
 * [mit rust docs](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/index.html)
 * [gentle intro to rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
 * [ethereum foundation on rust](https://ethereum.org/en/developers/docs/programming-languages/rust/)
+* [google rust course](https://github.com/google/comprehensive-rust)
 
 
 <br>
 
-#### libraries
 
-* [rust standard library](https://doc.rust-lang.org/std/index.html)
-* [web3 rust library](https://github.com/tomusdrw/rust-web3)
-* [tokio async library](https://tokio.rs/tokio/tutorial/async)
-* [google comprehensive rust course](https://github.com/google/comprehensive-rust)
+#### developing
+
+* [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
+* [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
 * [publishing a crate in crate.ios](https://doc.rust-lang.org/cargo/reference/publishing.html)
 
 
 <br>
+#### libraries and crates
 
-#### error handling
 
-* [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
+* [dotenv](https://crates.io/crates/dotenv): library for dotenv vars
+* [clap](https://docs.rs/clap/latest/clap/): library for menu and argparse
+* [reqwest](https://docs.rs/reqwest/latest/reqwest/): higher-level HTTP Client.
+* [tokio](https://tokio.rs/tokio/tutorial/async): library for async, multi-threading
+* [serde](https://serde.rs/): framework for serializing
+* [chrono](https://docs.rs/chrono/latest/chrono/): library for date and time
+* [comfy-table](https://crates.io/crates/comfy-table): pprint beautiful data tables
+* [once_cell](https://crates.io/crates/once_cell): library for single assignments cells and lazy values
+* [web3](https://crates.io/crates/web3): ethereum JSON-RPC client
+
+
 
 <br>
 
-#### tests
-
-* [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
-
-
-<br>
-
-#### study projects
-
-* [ether.rs](https://github.com/gakonst/ethers-rs): an ethereum and celo wallet implementation in rust.
-* [evm](https://github.com/rust-blockchain/evm): pure ruse implementation
-* [foundry](https://github.com/foundry-rs/foundry): modular toolkit for ethereum applications
-* [lighthouse](https://github.com/sigp/lighthouse): an ethereum consensus client
