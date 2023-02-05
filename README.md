@@ -2,18 +2,21 @@
 
 <br>
 
-### start with [rust tl; dr](rust_tldr.md)
+
+### resources in this repo
 
 <br>
 
+* **start with [rust tl; dr](rust_tldr.md)**
 
-----
-### packages in this project
+<br>
 
-* [📚 web3-rust-toolkit](web3toolkit)
-    - an ongoing development of a library and set of rust scripts with my fav on-chain ops.
+* **[📚 web3-rust-toolkit](web3toolkit)**
+    - on-going development of a library and set of rust scripts with my fav on-chain ops: ethereum etl, websockets, dexs and cexs retrieval, and more.
 
-* [🤖 coingator: a rusty statistical searcher toolkit](https://github.com/go-outside-labs/searcher-coingator-rs)
+<br>
+
+* **[🤖 coingator: a rusty statistical searcher toolkit](https://github.com/go-outside-labs/searcher-coingator-rs)**
     - toolkit for building statistical searchers, including websocket monitoring of CEXs, public mempool monitoring, tx and calldata decoders, and boilerplates for searchers.
 
 <br>
@@ -22,9 +25,11 @@
 
 ----
 
-### resources
+### resources for learning rust
 
-##### basics
+<br>
+
+#### basics
 
 * [install](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/second-edition/ch01-01-installation.html)
 * [cargo](https://doc.rust-lang.org/cargo/): dep manager and build tool
@@ -32,7 +37,7 @@
 
 <br>
 
-##### learning
+#### learning
 
 
 * [rust docs](https://doc.rust-lang.org/stable/book/)
@@ -43,7 +48,7 @@
 
 <br>
 
-##### libraries
+#### libraries
 
 * [rust standard library](https://doc.rust-lang.org/std/index.html)
 * [web3 rust library](https://github.com/tomusdrw/rust-web3)
@@ -53,13 +58,13 @@
 
 <br>
 
-##### error handling
+#### error handling
 
 * [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
 
 <br>
 
-##### study projects
+#### study projects
 
 * [ether.rs](https://github.com/gakonst/ethers-rs): an ethereum and celo wallet implementation in rust.
 * [evm](https://github.com/rust-blockchain/evm): pure ruse implementation

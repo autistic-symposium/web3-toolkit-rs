@@ -10,6 +10,7 @@
 
 <br>
 
+---
 ### features
 
 
@@ -26,6 +27,7 @@
 
 <br>
 
+---
 ### data structures
 
 * an array is a collection of objects of the same type T, stored in contiguous memory, represented by `[]`.
@@ -33,12 +35,12 @@
 * `From` and `Into` traits are inherently linked, providing a simple mechanism for converting between several types.
 * the type `HashMap<K, V>` stores a mapping of keys of type `K` to values of type `V` using a hashing function.s
 
-##### variable bindings
+#### variable bindings
 
 * safety via static typing (variable bindings can be type annotated when declared - and the compiler will silence warnings when vars are prefixed by `_`).
 * variable bindings are immutable but can be mutable with `mut` modifier.
 
-##### smart pointers
+#### smart pointers
 
 * smart pointers: while references only borrow data, in many cases, smart pointers own the data they point to. 
 * examples: `String` (stores its capacity as metadata and has the extra ability to ensure its data will always be valid UTF-8) and `Vec<T>`. 
@@ -49,9 +51,11 @@
 
 <br>
 
+---
+
 ### flow of control
 
-##### if/else
+#### if/else
 
 ```
     let n = 5;
@@ -65,7 +69,7 @@
     }
 ```
 
-##### loops
+#### loops
 
 ```
     let result = loop {
@@ -77,7 +81,7 @@
     };
 ```
 
-##### while
+#### while
 
 ```    
     let mut n = 1;
@@ -97,7 +101,7 @@
 
 ```
 
-##### for
+#### for
 
 ```
     for n in 1..101 { // or  for n in 1..=100 {
@@ -113,7 +117,7 @@
     }
 ```
 
-##### match
+#### match
 
 * same pattern as C's `switch`:
 
@@ -130,17 +134,19 @@
 * a `match` guard can be added to filter the arm.
 * a `match` block can [destructure items in a variety of ways](https://doc.rust-lang.org/rust-by-example/flow_control/match/destructuring.html).
 
-##### expressions
+#### expressions
 
 * blocks are expressions: they can be used as values in assignments. 
 * the last expression in the block will be assigned to the place expression, such as a local variable if no `;`, otherwise the return value will be `()`.
 
 <br>
 
+---
+
 ### functions
 
 
-##### associated functions
+#### associated functions
 
 * methods are associated functions that are called on a particular instance of a type.
 * associated functions are functions that are defined on a type generally (like constructors):
@@ -162,7 +168,7 @@ impl Point {
 }
 ```
 
-##### [closure](https://doc.rust-lang.org/rust-by-example/fn/closures/anonymity.html)
+#### [closure](https://doc.rust-lang.org/rust-by-example/fn/closures/anonymity.html)
 
 * calling a closure is exactly like calling a function. however, both input and return types can be inferred and input variable names must be specified.
 * `||` instead of `()` around input variables.
@@ -182,7 +188,7 @@ impl Point {
     - `FnMut`: the closure uses the captured value by mutable reference (`&mut T`).
     - `FnOnce`: the closure uses the captured value by value (`T`).
 
-##### diverging functions
+#### diverging functions
 
 * diverging functions never return. 
 * they are marked using `!`, which is an empty type:
@@ -195,6 +201,7 @@ fn foo() -> ! {
 
 <br>
 
+---
 ### modules
 
 * a module is a collection of items: functions, structs, traits, `impl` blocks, and other modules.
@@ -205,6 +212,7 @@ fn foo() -> ! {
 
 <br>
 
+---
 ### generics
 
 * a type parameter is specified as generic by the use of angle brackets and upper camel cases (`<Aaa>`).
@@ -212,6 +220,8 @@ fn foo() -> ! {
 * every reference in rust has a lifetime, which is the scope for which the reference is valid.
 
 <br>
+
+---
 
 ### memory
 
@@ -222,6 +232,8 @@ fn foo() -> ! {
 
 <br>
 
+
+---
 ### projects
 
 * a crate is the smallest amount of code that the compiler considers at time.
@@ -236,7 +248,9 @@ fn foo() -> ! {
 
 <br>
 
-#### concurrency
+--
+
+### concurrency
 
 
 * concurrency: different parts of a program execute independently. parallel programming: different parts of a program execute at the same time.

@@ -2,7 +2,7 @@
 
 <br>
 
-an on-going development of a library and set of rust scripts with my fav on-chain ops.
+an on-going development of a library and set of rust scripts with my fav on-chain ops: ethereum etl, websockets, dexs and cexs retrieval, and more.
 
 <br>
 
