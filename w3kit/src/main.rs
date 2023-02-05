@@ -22,7 +22,7 @@ fn main() {
     dotenv::dotenv().ok();
 
     let args = CliStruct::parse();
-    match args.command {
+    match args.blockchain {
         CliEnum::Ethereum(arg) => eth_handler(arg),
         CliEnum::Arbitrum(arg) => arbitrum_handler(arg),
         CliEnum::Avalanche(arg) => avax_handler(arg),
