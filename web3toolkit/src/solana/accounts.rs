@@ -1,8 +1,7 @@
-// solana-toolkit/acccounts.rs - author: steinkirch
+// solana/acccounts.rs - author: steinkirch
 // methods for wallets and accounts
 
 use std::str::FromStr;
-
 
 
 pub async fn web3_connect(provider_url: &str, account_address: &str) {

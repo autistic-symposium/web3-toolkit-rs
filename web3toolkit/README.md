@@ -8,51 +8,51 @@
 
 #### ethereum-toolkit
 
-* [connect to ethereum through http, websockets, or batching](src/ethereum-toolkit/connections.rs)
-* [retrieve ethereum wallets or account information](src/ethereum-toolkit/accounts.rs)
+* [connect to ethereum through http, websockets, or batching](src/ethereum/connections.rs)
+* [retrieve ethereum wallets or account information](src/ethereum/accounts.rs)
 
 <br>
 
 
 #### arbitrum-toolkit
 
-* [connect to arbitrum through http, websockets, or batching](src/arbitrum-toolkit/connections.rs)
-* [retrieve arbitrum wallets or account information](src/arbitrum-toolkit/accounts.rs)
+* [connect to arbitrum through http, websockets, or batching](src/arbitrum/connections.rs)
+* [retrieve arbitrum wallets or account information](src/arbitrum/accounts.rs)
 
 <br>
 
 #### avalanche-toolkit
 
-* [connect to avalanche through http, websockets, or batching](src/avalanche-toolkit/connections.rs)
-* [retrieve avalanche wallets or account information](src/avalanche-toolkit/accounts.rs)
+* [connect to avalanche through http, websockets, or batching](src/avalanche/connections.rs)
+* [retrieve avalanche wallets or account information](src/avalanche/accounts.rs)
 
 <br>
 
 #### near-toolkit
 
-* [connect to near through http, websockets, or batching](src/near-toolkit/connections.rs)
-* [retrieve near wallets or account information](src/near-toolkit/accounts.rs)
+* [connect to near through http, websockets, or batching](src/near/connections.rs)
+* [retrieve near wallets or account information](src/near/accounts.rs)
 
 <br>
 
 #### optimism-toolkit
 
-* [connect to optimism through http, websockets, or batching](src/optimism-toolkit/connections.rs)
-* [retrieve optimism wallets or account information](src/optimism-toolkit/accounts.rs)
+* [connect to optimism through http, websockets, or batching](src/optimism/connections.rs)
+* [retrieve optimism wallets or account information](src/optimism/accounts.rs)
 
 <br>
 
 #### polygon-toolkit
 
-* [connect to polygon through http, websockets, or batching](src/polygon-toolkit/connections.rs)
-* [retrieve polygon wallets or account information](src/polygon-toolkit/accounts.rs)
+* [connect to polygon through http, websockets, or batching](src/polygon/connections.rs)
+* [retrieve polygon wallets or account information](src/polygon/accounts.rs)
 
 <br>
 
 #### solana-toolkit
 
-* [connect to solana through http, websockets, or batching](src/solana-toolkit/connections.rs)
-* [retrieve solana wallets or account information](src/solana-toolkit/accounts.rs)
+* [connect to solana through http, websockets, or batching](src/solana/connections.rs)
+* [retrieve solana wallets or account information](src/solana/accounts.rs)
 
 <br>
 

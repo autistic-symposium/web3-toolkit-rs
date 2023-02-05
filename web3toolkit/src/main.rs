@@ -1,12 +1,20 @@
 // src/main.rs - author: steinkirch
 
-use web3toolkit::run;
+use clap::Parser;
+
+use commands::Commands;
+use near::{ping};
+
+mod near;
+mod commands;
 
 
-#[tokio::main]
-async fn main() {
+fn main() {
 
     dotenv::dotenv().ok();
-    run().await;
-    
+
+    let args = commands::Cli::parse();
+    match args.command {
+        Commands::Ticker(ticker_arg) => ping("aaaa"),
+    }
 }

@@ -11,6 +11,7 @@ pub type Http = web3::transports::Http;
 pub type WebSocket = web3::transports::WebSocket;
 
 
+
 pub async fn connect_ws(provider_url: &str, addresses: &str) -> web3::Result {
 
     println!("✅ connecting ws {:?}", provider_url);

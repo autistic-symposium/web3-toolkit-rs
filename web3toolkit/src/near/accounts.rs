@@ -11,28 +11,28 @@ pub async fn web3_connect(provider_url: &str, account_address: &str) {
 }
 
 
-async fn get_accounts(transport: Transport, account_address: &str)  {
+async fn get_accounts(account_address: &str)  {
 
     println!("to be implemented");
 
 }
 
 
-pub async fn get_accounts_ws(transport: WebSocket, addresses: &str) {
+pub async fn get_accounts_ws(addresses: &str) {
 
     println!("to be implemented");
 
 }
 
 
-pub async fn get_accounts_either(transport: Transport, addresses: &str) {
+pub async fn get_accounts_either(addresses: &str) {
 
     println!("to be implemented");
 
 }
 
 
-pub async fn get_accounts_batches(transport: Http, addresses: &str) {
+pub async fn get_accounts_batches(addresses: &str) {
 
     println!("to be implemented");
 
