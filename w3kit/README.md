@@ -17,8 +17,7 @@
 <br>
 
 
-<img width="550"  src="https://user-images.githubusercontent.com/1130416/216843138-7330cfcf-274e-46bc-b07f-c9460c267930.png">
-
+<img width="550" alt="Screen Shot 2023-02-05 at 12 33 12 PM" src="https://user-images.githubusercontent.com/1130416/216843363-da1460c8-7072-414b-8841-7776f3c42548.png">
 
 
 <br>
