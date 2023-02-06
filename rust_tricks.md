@@ -1,4 +1,4 @@
-## 😄 some good tricks when writing rust
+## 😄 some good tricks when writing rust (ongoing)
 
 <br>
 
