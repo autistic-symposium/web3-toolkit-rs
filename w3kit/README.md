@@ -82,7 +82,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b ethereum -a 0xbA4C081942E6a25cAF87c5489B91b449c67f3078
@@ -93,7 +97,7 @@ PROVIDER_URL_HTTP=
 ```
 <br>
 
-2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b ethereum -a 0xbA4C081942E6a25cAF87c5489B91b449c67f3078
@@ -112,7 +116,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b arbitrum -a 
@@ -120,7 +128,7 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b arbitrum -a 
@@ -135,7 +143,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b avalanche -a 
@@ -143,7 +155,7 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b avalanche -a 
@@ -158,7 +170,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b near -a 
@@ -166,7 +182,7 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b near -a 
@@ -181,7 +197,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b optimism -a 
@@ -189,7 +209,7 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b optimism -a 
@@ -204,7 +224,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b polygon -a 
@@ -212,7 +236,7 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b polygon -a 
@@ -227,7 +251,11 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 1. retrieve an account's balance through an http connection:
+#### retrieve an account's balance 
+
+<br>
+
+###### through an http connection:
 
 ```
 > w3kit http -b solana -a 
@@ -235,7 +263,7 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-##### 2. retrieve an account's balance through a websocket connection:
+###### through a websocket connection:
 
 ```
 > w3kit ws -b solana -a 
