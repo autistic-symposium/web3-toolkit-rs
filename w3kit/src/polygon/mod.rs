@@ -1,3 +1,3 @@
-pub mod connections;
+pub mod connector;
 
-pub use connections::{connect_ws, connect_http};
+pub use connector::{polygon_connect_ws, polygon_connect_http};

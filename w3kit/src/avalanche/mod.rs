@@ -1,3 +1,3 @@
-pub mod connections;
+pub mod connector;
 
-pub use connections::{connect_ws, connect_http};
+pub use connector::{avalanche_connect_ws, avalanche_connect_http};

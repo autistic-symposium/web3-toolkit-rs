@@ -1,5 +1,5 @@
-pub mod connections;
+pub mod connector;
 
-pub use connections::{web3_connect};
+pub use connector::{ethereum_connect};
 
 

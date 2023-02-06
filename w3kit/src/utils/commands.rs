@@ -6,7 +6,7 @@ use clap::{Args, Parser, Subcommand};
 
 #[derive(Debug, Parser)]
 #[clap(name = "w3kit")]
-#[clap(about = "🕹✨ a rusty toolkit for the blockchains ✨🕹")]
+#[clap(about = "🕹✨ a rusty toolkit for several blockchains ✨🕹")]
 pub struct CliStruct {
     #[clap(subcommand)]
     pub command: CliEnum,
@@ -30,9 +30,6 @@ pub struct ConnectionArgs {
     /// The blockchain to connect to
     pub blockchain: String,
     #[clap(short, long)]
-    /// The provider URL to connect to
-    pub url: String,
-    #[clap(short, long)]
-    /// The provider URL to connect to
+    /// The account to be fetched 
     pub account: String,
 }

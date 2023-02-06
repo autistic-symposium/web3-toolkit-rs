@@ -1,4 +1,4 @@
-// ethereum/connections.rs
+// ethereum/connectors.rs
 // author: steinkirch
 
 use std::str::FromStr;
@@ -11,8 +11,7 @@ use crate::{
     utils::maths::wei_to_eth,
 };
 
-
-pub async fn web3_connect(blockchain: &str, provider_url: &str, account_address: &str) -> web3::Result {
+pub async fn ethereum_connect(blockchain: &str, provider_url: &str, account_address: &str) -> web3::Result {
 
     println!("✅ connecting to {:?}", blockchain);
     let transport = web3::transports::Http::new(provider_url)?;
@@ -20,21 +19,19 @@ pub async fn web3_connect(blockchain: &str, provider_url: &str, account_address:
 
 }
 
-
 async fn get_accounts(transport: Transport, account_address: &str) -> web3::Result<()> {
 
     let web3s = web3::Web3::new(transport);
 
     let mut accounts = web3s.eth().accounts().await?;
     accounts.push(H160::from_str(account_address).unwrap());
-    println!("✅ retrieving balances:");
+    println!("✅ retrieving balances...");
 
     for account in accounts {
         let balance = web3s.eth().balance(account, None).await?;
-        println!("  - 💰 for {:?}: {} eth", account, wei_to_eth(balance));
+        println!("      💰 account {:?} 👉 {} ETH", account, wei_to_eth(balance));
     }
     
     Ok(())
 
 }
-

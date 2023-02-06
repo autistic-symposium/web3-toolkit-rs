@@ -4,4 +4,5 @@ pub mod cli_handler;
 
 pub use maths::wei_to_eth;
 pub use commands::{CliEnum, CliStruct};
-pub use cli_handler::{handle_http, handle_ws};
+pub use cli_handler::{handle_ws, handle_http};
+

@@ -1,3 +1,3 @@
-pub mod connections;
+pub mod connector;
 
-pub use connections::{connect_ws, connect_http};
+pub use connector::{near_connect_ws, near_connect_http};
