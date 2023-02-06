@@ -32,4 +32,7 @@ pub struct ConnectionArgs {
     #[clap(short, long)]
     /// The provider URL to connect to
     pub url: String,
+    #[clap(short, long)]
+    /// The provider URL to connect to
+    pub account: String,
 }

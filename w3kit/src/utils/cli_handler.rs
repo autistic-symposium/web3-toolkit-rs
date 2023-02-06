@@ -4,17 +4,28 @@
 
 use crate::{
     utils::commands::ConnectionArgs,
-    ethereum::connections::{web3_connect},
+    ethereum,
 };
 
-pub async fn handle_ws(args: ConnectionArgs) -> () {
+pub async fn handle_ws(args: ConnectionArgs) {
 
-    web3_connect(url, addresses).await;
-    
+    let blockchain = &args.blockchain.to_string();
+
+    if blockchain == "ethereum" {
+        ethereum::connections::web3_connect(&args.url.to_string(), &args.account.to_string()).await;
+    } else {
+        println!("❌ blockchain not supported yet");
+    }
 }
 
 pub async fn handle_http(args: ConnectionArgs) {
 
-    web3_connect(url, addresses).await;
+    let blockchain = &args.blockchain.to_string();
+
+    if blockchain == "ethereum" {
+        ethereum::connections::web3_connect(&args.url.to_string(), &args.account.to_string()).await;
+    } else {
+        println!("❌ blockchain not supported yet");
+    }
     
 }
