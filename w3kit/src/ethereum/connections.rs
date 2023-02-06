@@ -12,9 +12,9 @@ use crate::{
 };
 
 
-pub async fn web3_connect(provider_url: &str, account_address: &str) -> web3::Result {
+pub async fn web3_connect(blockchain: &str, provider_url: &str, account_address: &str) -> web3::Result {
 
-    println!("✅ connecting to {:?}", provider_url);
+    println!("✅ connecting to {:?}", blockchain);
     let transport = web3::transports::Http::new(provider_url)?;
     get_accounts(web3::transports::Either::Right(transport), account_address).await
 
