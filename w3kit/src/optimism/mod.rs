@@ -1,3 +1,5 @@
 pub mod connector;
 
-pub use connector::{optimism_connect_ws, optimism_connect_http};
+pub use connector::{optimism_connect_ws, 
+                    optimism_connect_http,
+                    optimism_get_account};

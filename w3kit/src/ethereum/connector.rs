@@ -6,19 +6,16 @@ use web3::types::{H160};
 
 pub type Transport = web3::transports::Either<web3::transports::WebSocket, web3::transports::Http>;
 
-
 use crate::{
     utils::maths::wei_to_eth,
 };
 
-pub async fn ethereum_connect(provider_url: &str, account_address: &str) -> web3::Result {
 
-    let transport = web3::transports::Http::new(provider_url)?;
-    get_accounts(web3::transports::Either::Right(transport), account_address).await
+////////////////////////////
+// Prviate functions
+////////////////////////////
 
-}
-
-async fn get_accounts(transport: Transport, account_address: &str) -> web3::Result<()> {
+async fn get_account(transport: Transport, account_address: &str) -> web3::Result<()> {
 
     let web3s = web3::Web3::new(transport);
 
@@ -34,3 +31,38 @@ async fn get_accounts(transport: Transport, account_address: &str) -> web3::Resu
     Ok(())
 
 }
+
+async fn get_block(transport: Transport) -> web3::Result<()> {
+
+    let web3s = web3::Web3::new(transport);
+
+    let block = web3s.eth().block_number().await?;
+    println!("✅ current block: {:?}", block);
+    
+    Ok(())
+
+}
+
+
+////////////////////////////
+// Public functions
+////////////////////////////
+
+// This function connects to Ethereum via either HTTP or WS
+pub async fn ethereum_connect(provider_url: &str) -> web3::Result {
+
+    let transport = web3::transports::Http::new(provider_url)?;
+    
+    get_block(web3::transports::Either::Right(transport)).await
+
+}
+
+
+pub async fn ethereum_get_account(provider_url: &str, account_address: &str) -> web3::Result {
+
+    let transport = web3::transports::Http::new(provider_url)?;
+    
+    get_account(web3::transports::Either::Right(transport), account_address).await
+
+}
+

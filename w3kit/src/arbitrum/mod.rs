@@ -1,3 +1,5 @@
 pub mod connector;
 
-pub use connector::{arbitrum_connect_ws, arbitrum_connect_http};
+pub use connector::{arbitrum_connect_ws, 
+                    arbitrum_connect_http,
+                    arbitrum_get_account};

@@ -17,10 +17,13 @@ pub struct CliStruct {
 pub enum CliEnum {
     #[clap(arg_required_else_help = true)]
     /// Test a websocket connection to a given blockchain
-    WS(ConnectionArgs),
+    Ws(ConnectionArgs),
     #[clap(arg_required_else_help = true)]
     /// Test an http connection to a given blockchain
-    HTTP(ConnectionArgs),
+    Http(ConnectionArgs),
+    #[clap(arg_required_else_help = true)]
+    /// Get an account balance from a given blockchain
+    Account(AccountArgs),
 }
 
 
@@ -29,7 +32,16 @@ pub struct ConnectionArgs {
     #[clap(short, long)]
     /// The blockchain to connect to
     pub blockchain: String,
+}
+
+
+#[derive(Debug, Args)]
+pub struct AccountArgs {
+    #[clap(short, long)]
+    /// The blockchain to connect to
+    pub blockchain: String,
     #[clap(short, long)]
     /// The account to be fetched 
     pub account: String,
 }
+

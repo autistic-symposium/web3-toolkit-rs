@@ -4,24 +4,23 @@
 use std::env;
 
 
-pub async fn solana_connect_ws(account_address: &str) {
+////////////////////////////
+// Public functions
+////////////////////////////
+
+pub async fn solana_connect_ws() {
 
     let url = &env::var("SOLANA_URL_WS").expect("⛔️ No SOLANA_URL_WS on .env file");
 
 }
 
-pub async fn solana_connect_http(account_address: &str) {
+pub async fn solana_connect_http() {
 
     let url = &env::var("SOLANA_URL_HTTP").expect("⛔️ No SOLANA_URL_HTTP on .env file");
 
-
-
-
-    
-
 }
 
-async fn get_accounts() {
+pub async fn solana_get_account(account_address: &str) {
 
     println!("✅ retrieving balances...");
 
