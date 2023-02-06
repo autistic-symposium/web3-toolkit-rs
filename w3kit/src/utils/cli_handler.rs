@@ -20,18 +20,20 @@ pub async fn handle_ws(args: ConnectionArgs) {
 
     let blockchain = &args.blockchain.to_string();
     let account = &args.account.to_string();
-    let url = &env::var("PROVIDER_URL_WS").expect("⛔️ No PROVIDER_URL_WS on .env file");
+
+    println!("✅ connecting to {:?}", blockchain);
 
     match String::from(blockchain).as_str() {
 
-        "arbitrum" => arbitrum_connect_ws(blockchain, url, account).await,
-        "avalanche" => avalanche_connect_ws(blockchain, url, account).await,
-        "optimism" => optimism_connect_ws(blockchain, url, account).await,
-        "near" => near_connect_ws(blockchain, url, account).await,
-        "polygon" => polygon_connect_ws(blockchain, url, account).await,
-        "solana" => solana_connect_ws(blockchain, url, account).await,
+        "arbitrum" => arbitrum_connect_ws(account).await,
+        "avalanche" => avalanche_connect_ws(account).await,
+        "optimism" => optimism_connect_ws(account).await,
+        "near" => near_connect_ws(account).await,
+        "polygon" => polygon_connect_ws(account).await,
+        "solana" => solana_connect_ws(account).await,
         "ethereum" =>  {
-            match ethereum_connect(blockchain, url, account).await {
+            let url = &env::var("ETHEREUM_URL_WS").expect("⛔️ No ETHEREUM_URL_WS on .env file");
+            match ethereum_connect(url, account).await {
                 Err(e) => println!("⛔️ {:?}", e),
                 _ => ()
             }
@@ -40,22 +42,25 @@ pub async fn handle_ws(args: ConnectionArgs) {
     } 
 }
 
+
 pub async fn handle_http(args: ConnectionArgs) {
 
     let blockchain =  &args.blockchain.to_string();
     let account = &args.account.to_string();
-    let url = &env::var("PROVIDER_URL_HTTP").expect("⛔️ No PROVIDER_URL_HTTP on .env file");
+
+    println!("✅ connecting to {:?}", blockchain);
 
     match String::from(blockchain).as_str() {
 
-        "arbitrum" => arbitrum_connect_http(blockchain, url, account).await,
-        "avalanche" => avalanche_connect_http(blockchain, url, account).await,
-        "optimism" => optimism_connect_http(blockchain, url, account).await,
-        "near" => near_connect_http(blockchain, url, account).await,
-        "polygon" => polygon_connect_http(blockchain, url, account).await,
-        "solana" => solana_connect_http(blockchain, url, account).await,
+        "arbitrum" => arbitrum_connect_http(account).await,
+        "avalanche" => avalanche_connect_http(account).await,
+        "optimism" => optimism_connect_http(account).await,
+        "near" => near_connect_http(account).await,
+        "polygon" => polygon_connect_http(account).await,
+        "solana" => solana_connect_http(account).await,
         "ethereum" =>  {
-            match ethereum_connect(blockchain, url, account).await {
+            let url = &env::var("ETHEREUM_URL_HTTP").expect("⛔️ No ETHEREUM_URL_HTTP on .env file");
+            match ethereum_connect(url, account).await {
                 Err(e) => println!("⛔️ {:?}", e),
                 _ => ()
             }
