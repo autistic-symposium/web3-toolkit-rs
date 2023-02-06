@@ -78,11 +78,7 @@ PROVIDER_URL_HTTP=
 
 ----
 
-### available features
-
-<br>
-
-#### ethereum
+### ethereum
 
 <br>
 
@@ -111,7 +107,7 @@ PROVIDER_URL_HTTP=
 
 ---
 
-#### arbitrum
+### arbitrum
 
 
 <br>
@@ -134,7 +130,7 @@ PROVIDER_URL_HTTP=
 
 ---
 
-#### avalanche
+### avalanche
 
 
 <br>
@@ -157,7 +153,7 @@ PROVIDER_URL_HTTP=
 
 ---
 
-#### near
+### near
 
 
 <br>
@@ -180,7 +176,7 @@ PROVIDER_URL_HTTP=
 
 ---
 
-#### optimism
+### optimism
 
 
 <br>
@@ -203,7 +199,7 @@ PROVIDER_URL_HTTP=
 
 ---
 
-#### polygon
+### polygon
 
 
 <br>
@@ -226,7 +222,7 @@ PROVIDER_URL_HTTP=
 
 ---
 
-#### solana
+### solana
 
 
 <br>
