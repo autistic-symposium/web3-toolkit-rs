@@ -248,7 +248,7 @@ fn foo() -> ! {
 
 <br>
 
---
+---
 
 ### concurrency
 
