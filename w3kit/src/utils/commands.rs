@@ -1,8 +1,7 @@
 // src/utils/commands.rs
 // author: steinkirch
 
-use std::fmt;
-use clap::{Args, Parser, Subcommand, ValueEnum};
+use clap::{Args, Parser, Subcommand};
 
 
 #[derive(Debug, Parser)]

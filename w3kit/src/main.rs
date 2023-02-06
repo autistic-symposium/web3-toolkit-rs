@@ -3,7 +3,7 @@
 
 
 mod utils;
-mod near;
+mod ethereum;
 
 use clap::Parser;
 
@@ -14,12 +14,13 @@ use utils::{CliEnum,
             };
 
 
-fn main() {
+#[tokio::main]
+async fn main() {
 
     let args = CliStruct::parse();
     
     match args.command {
-        CliEnum::WS(args) => handle_ws(args),
-        CliEnum::HTTP(args) => handle_http(args),
+        CliEnum::WS(args) => handle_ws(args).await,
+        CliEnum::HTTP(args) => handle_http(args).await,
     }
 }

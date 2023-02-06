@@ -4,18 +4,17 @@
 
 use crate::{
     utils::commands::ConnectionArgs,
+    ethereum::connections::{web3_connect},
 };
 
-pub fn handle_ws(args: ConnectionArgs) {
+pub async fn handle_ws(args: ConnectionArgs) -> () {
 
-    println!("arg.blockchain: {:?}", args.blockchain);
-    println!("arg.url: {:?}", args.url);
+    web3_connect(url, addresses).await;
     
 }
 
-pub fn handle_http(args: ConnectionArgs) {
+pub async fn handle_http(args: ConnectionArgs) {
 
-    println!("arg.blockchain: {:?}", args.blockchain);
-    println!("arg.url: {:?}", args.url);
+    web3_connect(url, addresses).await;
     
 }
