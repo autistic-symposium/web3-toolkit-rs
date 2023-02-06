@@ -224,7 +224,6 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b polygon -a 
-
 ```
 
 <br>
@@ -248,7 +247,6 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b solana -a 
-
 ```
 
 <br>
