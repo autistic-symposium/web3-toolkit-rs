@@ -10,5 +10,5 @@
 
 ##### `Some()`
 
-* `Option::as_deref` converts`&Option<Vec<T>>` into `Option<&[T]>`
+* `Option::as_deref` converts `&Option<Vec<T>>` into `Option<&[T]>`
 * `unwrap_or_default` returns `&[T]`

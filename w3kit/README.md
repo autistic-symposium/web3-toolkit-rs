@@ -5,7 +5,7 @@
 
 <br>
 
-* 🛠 **[this package](https://crates.io/crates/w3kit)** contains an ongoing library and set of scripts for several blockchains.
+* 🛠 **[this package](https://github.com/go-outside-labs/web3-toolkit-rs/tree/main/w3kit)** contains an ongoing crate with a set of scripts for several blockchains (check it at **[crates.io](https://crates.io/crates/w3kit)**).
 * 💡 for a rusty boilerplate for running stat searchers, check **[coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**.
 
 <br>
