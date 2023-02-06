@@ -83,32 +83,44 @@ PROVIDER_URL_HTTP=
 
 <br>
 
-#### retrieve an account's balance 
+#### connection to chain
 
 <br>
 
 ###### through an http connection:
 
 ```
-> w3kit http -b ethereum -a 0xbA4C081942E6a25cAF87c5489B91b449c67f3078
-
+> w3kit http -b ethereum
 ✅ connecting to "ethereum"
-✅ retrieving balances...
-      💰 account 0xba4c081942e6a25caf87c5489b91b449c67f3078 👉 0.0672775267238201 ETH
+✅ current block: 16572583
 ```
 <br>
 
 ###### through a websocket connection:
 
 ```
-> w3kit ws -b ethereum -a 0xbA4C081942E6a25cAF87c5489B91b449c67f3078
+> w3kit ws -b ethereum
+✅ connecting to "ethereum"
+✅ current block: 16572598
+```
+
+<br>
+
+#### retrieving an account data
+
+
+```
+> w3kit account -b ethereum -a 0xbA4C081942E6a25cAF87c5489B91b449c67f3078
 
 ✅ connecting to "ethereum"
+✅ getting account info: "0xbA4C081942E6a25cAF87c5489B91b449c67f3078"
 ✅ retrieving balances...
       💰 account 0xba4c081942e6a25caf87c5489b91b449c67f3078 👉 0.0672775267238201 ETH
 ```
 
 <br>
+
+
 
 ---
 
