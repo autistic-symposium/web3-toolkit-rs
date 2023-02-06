@@ -6,8 +6,6 @@ use crate::{
     utils::commands::ConnectionArgs,
 };
 
-
-
 pub fn handle_ws(args: ConnectionArgs) {
 
     println!("arg.blockchain: {:?}", args.blockchain);

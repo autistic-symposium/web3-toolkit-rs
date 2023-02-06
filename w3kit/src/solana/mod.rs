@@ -1,4 +1,3 @@
-pub mod accounts;
 pub mod connections;
 
-pub use connections::ping;
+pub use connections::{connect_ws, connect_http};

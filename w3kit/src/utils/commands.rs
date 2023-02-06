@@ -28,9 +28,9 @@ pub enum CliEnum {
 #[derive(Debug, Args)]
 pub struct ConnectionArgs {
     #[clap(short, long)]
-    /// The blockchain to test
+    /// The blockchain to connect to
     pub blockchain: String,
     #[clap(short, long)]
-    /// The provider URL to test
+    /// The provider URL to connect to
     pub url: String,
 }

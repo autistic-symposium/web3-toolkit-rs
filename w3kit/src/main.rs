@@ -16,9 +16,8 @@ use utils::{CliEnum,
 
 fn main() {
 
-    dotenv::dotenv().ok();
-
     let args = CliStruct::parse();
+    
     match args.command {
         CliEnum::WS(args) => handle_ws(args),
         CliEnum::HTTP(args) => handle_http(args),

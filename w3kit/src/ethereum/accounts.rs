@@ -1,5 +1,6 @@
-// ethereum-toolkit/acccounts.rs - author: steinkirch
-// methods for wallets and accounts
+// ethereum/acccounts.rs
+// author: steinkirch
+
 
 use std::str::FromStr;
 use web3::types::{H160};
@@ -7,7 +8,6 @@ use web3::types::{H160};
 use crate::helpers::wei_to_eth;
 
 pub type Transport = web3::transports::Either<web3::transports::WebSocket, web3::transports::Http>;
-
 
 
 pub async fn web3_connect(provider_url: &str, account_address: &str) -> web3::Result {
