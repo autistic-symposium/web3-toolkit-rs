@@ -63,6 +63,8 @@
 
 #### libraries and crates
 
+<br>
+##### general
 
 * [dotenv](https://crates.io/crates/dotenv): library for dotenv vars
 * [clap](https://docs.rs/clap/latest/clap/): library for menu and argparse
@@ -71,8 +73,15 @@
 * [serde](https://serde.rs/): framework for serializing
 * [chrono](https://docs.rs/chrono/latest/chrono/): library for date and time
 * [comfy-table](https://crates.io/crates/comfy-table): pprint beautiful data tables
-* [once_cell](https://crates.io/crates/once_cell): library for single assignments cells and lazy values
+* [once_cell](https://crates.io/crates/once_cell): library for single assignments cells
+
+<br>
+
+##### web3-related
+
 * [web3](https://crates.io/crates/web3): ethereum JSON-RPC client
+* [ethers-provider](https://crates.io/crates/ethers-providers)
+* [near api](https://crates.io/crates/near-api-tokio)
 
 
 

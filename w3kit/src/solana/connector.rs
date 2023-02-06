@@ -14,6 +14,11 @@ pub async fn solana_connect_http(account_address: &str) {
 
     let url = &env::var("SOLANA_URL_HTTP").expect("⛔️ No SOLANA_URL_HTTP on .env file");
 
+
+
+
+    
+
 }
 
 async fn get_accounts() {
