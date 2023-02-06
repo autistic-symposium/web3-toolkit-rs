@@ -1,20 +1,17 @@
 // src/utils/commands.rs
 // author: steinkirch
 
-mod near;
+
 mod utils;
+mod near;
 
 use clap::Parser;
 
 use utils::{CliEnum, 
             CliStruct,
-            eth_handler, 
-            arbitrum_handler, 
-            avax_handler, 
-            near_handler, 
-            optimism_handler, 
-            polygon_handler, 
-            solana_handler};
+            handle_ws, 
+            handle_http,
+            };
 
 
 fn main() {
@@ -22,13 +19,8 @@ fn main() {
     dotenv::dotenv().ok();
 
     let args = CliStruct::parse();
-    match args.blockchain {
-        CliEnum::Ethereum(arg) => eth_handler(arg),
-        CliEnum::Arbitrum(arg) => arbitrum_handler(arg),
-        CliEnum::Avalanche(arg) => avax_handler(arg),
-        CliEnum::Near(arg) =>  near_handler(arg),
-        CliEnum::Optimism(arg) => optimism_handler(arg),
-        CliEnum::Polygon(arg) => polygon_handler(arg),
-        CliEnum::Solana(arg) => solana_handler(arg),
+    match args.command {
+        CliEnum::WS(args) => handle_ws(args),
+        CliEnum::HTTP(args) => handle_http(args),
     }
 }

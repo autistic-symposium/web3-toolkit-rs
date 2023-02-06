@@ -4,6 +4,13 @@
 use std::str::FromStr;
 
 
+
+pub fn get_balance() {
+
+    println!("get_balance");
+}
+
+
 pub async fn web3_connect(provider_url: &str, account_address: &str) {
 
     println!("to be implemented");

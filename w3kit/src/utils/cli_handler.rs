@@ -3,68 +3,21 @@
 
 
 use crate::{
-    utils::commands::EthereumArg,
-    utils::commands::ArbitrumArg,
-    utils::commands::AvalancheArg,
-    utils::commands::NearArg,
-    utils::commands::OptimismArg,
-    utils::commands::PolygonArg,
-    utils::commands::SolanaArg,
+    utils::commands::ConnectionArgs,
 };
 
 
-pub fn eth_handler(arg: EthereumArg) {
 
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
+pub fn handle_ws(args: ConnectionArgs) {
 
+    println!("arg.blockchain: {:?}", args.blockchain);
+    println!("arg.url: {:?}", args.url);
+    
 }
 
+pub fn handle_http(args: ConnectionArgs) {
 
-pub fn arbitrum_handler(arg: ArbitrumArg) {
-
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
-
+    println!("arg.blockchain: {:?}", args.blockchain);
+    println!("arg.url: {:?}", args.url);
+    
 }
-
-
-pub fn avax_handler(arg: AvalancheArg) {
-
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
-
-}
-
-
-pub fn near_handler(arg: NearArg) {
-
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
-
-}
-
-
-pub fn optimism_handler(arg: OptimismArg) {
-
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
-
-}
-
-
-pub fn polygon_handler(arg: PolygonArg) {
-
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
-
-}
-
-
-pub fn solana_handler(arg: SolanaArg) {
-
-    println!("arg.account: {:?}", arg.account);
-    println!("arg.status: {:?}", arg.status);
-
-}
-

@@ -7,7 +7,7 @@
 
 <br>
 
-* **💡 start with [rust tl; dr](rust_tldr.md)**
+* **💡 start with [rust tl; dr](rust_tldr.md)** and check **[rust tricks](rust_tricks.md)** at some point.
 
 <br>
 
