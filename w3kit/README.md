@@ -56,7 +56,7 @@ note that all [cargo](https://doc.rust-lang.org/cargo/) commands relevant to thi
 
 
 
-#### creating a `.env`
+#### setup
 
 <br>
 
