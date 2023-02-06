@@ -128,7 +128,6 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b arbitrum -a 
-
 ```
 
 <br>
@@ -152,7 +151,6 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b avalanche -a 
-
 ```
 
 <br>
@@ -176,7 +174,6 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b near -a 
-
 ```
 
 <br>
@@ -200,7 +197,6 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b optimism -a 
-
 ```
 
 <br>
