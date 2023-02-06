@@ -14,7 +14,7 @@
 
 
 
-<img width="555" src="https://user-images.githubusercontent.com/1130416/216885451-7536cb4e-2c2f-4ede-ab96-69c1c9ce3b1d.png">
+<img width="555" src="https://user-images.githubusercontent.com/1130416/217096938-711e10b0-86de-48b6-a8b4-a04b9697ad97.png">
 
 
 <br>
@@ -31,6 +31,7 @@
 #### as a package
 
 <br>
+
 
 ```
 cargo install w3kit
