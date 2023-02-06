@@ -1,5 +1,5 @@
-// optimism-toolkit/connections.rs - author: steinkirch
-// methods for wallets and accounts
+// optimism/connections.rs
+// author: steinkirch
 
 
 use std::str::FromStr;
