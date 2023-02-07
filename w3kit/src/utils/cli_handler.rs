@@ -27,7 +27,7 @@ use crate::{
     solana::connector::{solana_connect_ws, 
                         solana_get_account,
                         solana_connect_http},
-    market::coingecko::{get_coin_price},
+    market::coingecko::{get_coin_info},
 };
 
 /////////////////////////////////////////
@@ -120,9 +120,6 @@ pub async fn handle_account(args: AccountArgs) {
 pub async fn handle_coin(args: CoinArgs) {  
 
     let coin = &args.coin.to_string();
-
-    println!("✅ fetching coin info: {:?}", coin);
-
-    get_coin_price(coin).await;
+    get_coin_info(coin).await;
 
 }

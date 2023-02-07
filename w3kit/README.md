@@ -130,10 +130,10 @@ PROVIDER_URL_HTTP=
 ```
 >  w3kit coin ethereum
 
-✅ fetching coin info: "ethereum"
-✅ fetching price for ethereum in usd
-✅ GET https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd
-      💰 ethereum price 👉 {"ethereum":{"usd":1623.04}}
+✅ fetching marketcap for ethereum
+✅ GET https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_market_cap=true
+      🪙 price     👉 $1625.35
+      📊 marketcap 👉 195950687355.82028
 ```
 
 <br>
