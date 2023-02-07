@@ -133,7 +133,7 @@ PROVIDER_URL_HTTP=
 ✅ fetching coin info: "ethereum"
 ✅ fetching price for ethereum in usd
 ✅ GET https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd
-✅ ethereum price: {"ethereum":{"usd":1622.08}}
+      💰 ethereum price 👉 {"ethereum":{"usd":1623.04}}
 ```
 
 <br>
