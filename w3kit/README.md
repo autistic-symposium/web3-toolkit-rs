@@ -9,15 +9,14 @@
 
 ##### 📚 for a fun in-depth reading about rust, check my mirror post [w3kit: a web3 toolkit in rust]().
 
-#####💡 for a rusty boilerplate for running stat searchers, check **[coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**.
+##### 💡 for a rusty boilerplate for running stat searchers, check **[coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**.
 
 <br>
 
 <br>
 
 
-
-<img width="555" src="https://user-images.githubusercontent.com/1130416/217096938-711e10b0-86de-48b6-a8b4-a04b9697ad97.png">
+<img width="555" src="https://user-images.githubusercontent.com/1130416/217120907-56bf0ab9-5cec-4f81-8359-818df3f5f242.png">
 
 
 <br>
