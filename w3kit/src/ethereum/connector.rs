@@ -12,7 +12,7 @@ use crate::{
 
 
 ////////////////////////////
-// Private functions
+// Private methods
 ////////////////////////////
 
 async fn get_account(transport: Transport, account_address: &str) -> web3::Result<()> {
@@ -45,7 +45,7 @@ async fn get_block(transport: Transport) -> web3::Result<()> {
 
 
 ////////////////////////////
-// Public functions
+// Public methods
 ////////////////////////////
 
 // This function connects to Ethereum via either HTTP or WS

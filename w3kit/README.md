@@ -124,6 +124,12 @@ PROVIDER_URL_HTTP=
 
 <br>
 
+
+---
+
+### market
+
+<br>
 #### retrieving a coin price
 
 this tool leverages [coingecko api](https://www.coingecko.com/en/api/documentation) for coin info. other markets might be added later.
@@ -138,6 +144,7 @@ this tool leverages [coingecko api](https://www.coingecko.com/en/api/documentati
 ```
 
 <br>
+
 
 ---
 
@@ -176,6 +183,8 @@ this tool leverages [coingecko api](https://www.coingecko.com/en/api/documentati
 
 
 <br>
+
+
 
 ---
 

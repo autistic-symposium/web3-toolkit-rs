@@ -14,7 +14,7 @@ pub fn wei_to_eth(wei_val: U256) -> f64 {
 
 }
 
-/// Compute the Keccak-256 hash of input bytes.
+/// Compute the Keccak-256 hash of input bytes
 #[allow(dead_code)]
 pub fn keccak256(bytes: &[u8]) -> [u8; 32] {
 

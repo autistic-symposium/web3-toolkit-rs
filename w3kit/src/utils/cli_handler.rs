@@ -123,3 +123,4 @@ pub async fn handle_coin(args: CoinArgs) {
     get_coin_info(coin).await;
 
 }
+

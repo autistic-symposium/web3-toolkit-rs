@@ -20,7 +20,6 @@ use utils::{CliEnum,
             handle_account,
             handle_coin};
 
-
 #[tokio::main]
 async fn main() {
 
