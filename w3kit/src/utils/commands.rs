@@ -24,6 +24,9 @@ pub enum CliEnum {
     #[clap(arg_required_else_help = true)]
     /// Get an account balance from a given blockchain
     Account(AccountArgs),
+    #[clap(arg_required_else_help = true)]
+    /// Get a coin price and market cap
+    Coin(CoinArgs),
 }
 
 
@@ -45,3 +48,9 @@ pub struct AccountArgs {
     pub account: String,
 }
 
+
+#[derive(Debug, Args)]
+pub struct CoinArgs {
+    /// The coin to get info about 
+    pub coin: String,
+}

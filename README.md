@@ -12,13 +12,15 @@
 <br>
 
 * **[📚 web3-toolkit-rs](w3kit)**
-    - **w3kit** is an ongoing development of a library for on-chain ops on several blockchains.
+    - **w3kit** is an ongoing development of a library for on-chain ops on **several blockchains**.
     - this package (crate) is published in **[crates.io](https://crates.io/crates/w3kit)** and can be imported as a library with `cargo add w3kit`.
+    - mirror post (learn about **async, tokio, futures**, etc.) **[w3kit: a web3 toolkit in rust]()**.
 
 <br>
 
 * **[🤖 coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**
-    - a rusty boilerplate for building and running statistical searchers.
+    - a rusty boilerplate for building and running **statistical searchers**.
+    - mirror post **[bot #3: coingator, a rusty statistical searcher boilerplate]()**.
 
 <br>
 

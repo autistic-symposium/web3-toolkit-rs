@@ -12,7 +12,7 @@ use crate::{
 
 
 ////////////////////////////
-// Prviate functions
+// Private functions
 ////////////////////////////
 
 async fn get_account(transport: Transport, account_address: &str) -> web3::Result<()> {

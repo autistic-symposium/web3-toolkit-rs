@@ -5,7 +5,8 @@ use std::env;
 
 use crate::{
     utils::commands::{ConnectionArgs,
-                      AccountArgs},
+                      AccountArgs,
+                      CoinArgs},
     ethereum::connector::{ethereum_connect, 
                           ethereum_get_account},
     arbitrum::connector::{arbitrum_connect_ws, 
@@ -26,6 +27,7 @@ use crate::{
     solana::connector::{solana_connect_ws, 
                         solana_get_account,
                         solana_connect_http},
+    market::coingecko::{get_coin_price},
 };
 
 /////////////////////////////////////////
@@ -112,4 +114,15 @@ pub async fn handle_account(args: AccountArgs) {
         }
         &_ => todo!()
     }
+}
+
+
+pub async fn handle_coin(args: CoinArgs) {  
+
+    let coin = &args.coin.to_string();
+
+    println!("✅ getting coin info: {:?}", coin);
+
+    get_coin_price(coin).await;
+
 }
