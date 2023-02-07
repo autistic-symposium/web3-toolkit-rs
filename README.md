@@ -45,7 +45,6 @@
 
 
 * [rust docs](https://doc.rust-lang.org/stable/book/)
-* [mit rust docs](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/index.html)
 * [gentle intro to rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
 * [ethereum foundation on rust](https://ethereum.org/en/developers/docs/programming-languages/rust/)
 * [google rust course](https://github.com/google/comprehensive-rust)
