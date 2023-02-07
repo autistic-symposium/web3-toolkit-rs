@@ -126,6 +126,7 @@ PROVIDER_URL_HTTP=
 
 #### retrieving a coin price
 
+this tool leverages [coingecko api](https://www.coingecko.com/en/api/documentation) for coin info. other markets might be added later.
 
 ```
 >  w3kit coin ethereum

@@ -2,7 +2,7 @@
 // author: steinkirch
 
 use std::env;
-use serde_json::{Value};
+use serde_json;
 
 
 ////////////////////////////
@@ -12,7 +12,7 @@ use serde_json::{Value};
 async fn get_request(url: &str) -> serde_json::Value {
 
     println!("✅ GET {}", url);
-    let mut response = reqwest::get(url)
+    let response = reqwest::get(url)
                         .await.unwrap()
                         .json::<serde_json::Value>()
                         .await.unwrap();
@@ -26,8 +26,8 @@ async fn get_request(url: &str) -> serde_json::Value {
 
 }
 
-// Get just the price of a coin
-// This method is not used in the current version of the CLI
+
+#[allow(dead_code)]
 async fn coin_price(coin: &str, currency: &str) {
 
     println!("✅ fetching price for {} in {}", coin, currency);
