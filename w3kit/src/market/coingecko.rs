@@ -11,10 +11,10 @@ use serde_json::{Value};
 
 async fn get_price(coin: &str, currency: &str) -> String {
 
-    println!("✅ getting price for {} in {}", coin, currency);
+    println!("✅ fetching price for {} in {}", coin, currency);
     let coingecko_url = &env::var("COINGECKO_API_URL").expect("⛔️ No COINGECKO_API_URL on .env file");
     let url = format!("{}simple/price?ids={}&vs_currencies={}", coingecko_url, coin, currency);
-    println!("✅ submitting url {}", url);
+    println!("✅ GET {}", url);
 
     reqwest::get(url).await.unwrap().text().await.unwrap()
 }

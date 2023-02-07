@@ -94,6 +94,7 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit http -b ethereum
+
 ✅ connecting to "ethereum"
 ✅ current block: 16572583
 ```
@@ -103,6 +104,7 @@ PROVIDER_URL_HTTP=
 
 ```
 > w3kit ws -b ethereum
+
 ✅ connecting to "ethereum"
 ✅ current block: 16572598
 ```
@@ -116,14 +118,26 @@ PROVIDER_URL_HTTP=
 > w3kit account -b ethereum -a 0xbA4C081942E6a25cAF87c5489B91b449c67f3078
 
 ✅ connecting to "ethereum"
-✅ getting account info: "0xbA4C081942E6a25cAF87c5489B91b449c67f3078"
+✅ fetching account info: "0xbA4C081942E6a25cAF87c5489B91b449c67f3078"
 ✅ retrieving balances...
       💰 account 0xba4c081942e6a25caf87c5489b91b449c67f3078 👉 0.0672775267238201 ETH
 ```
 
 <br>
 
+#### retrieving a coin price
 
+
+```
+>  w3kit coin ethereum
+
+✅ fetching coin info: "ethereum"
+✅ fetching price for ethereum in usd
+✅ GET https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd
+✅ ethereum price: {"ethereum":{"usd":1622.08}}
+```
+
+<br>
 
 ---
 

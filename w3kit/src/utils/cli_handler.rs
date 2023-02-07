@@ -95,7 +95,7 @@ pub async fn handle_account(args: AccountArgs) {
     let account = &args.account.to_string();
 
     println!("✅ connecting to {:?}", blockchain);
-    println!("✅ getting account info: {:?}", account);
+    println!("✅ fetching account info: {:?}", account);
 
     match String::from(blockchain).as_str() {
 
@@ -121,7 +121,7 @@ pub async fn handle_coin(args: CoinArgs) {
 
     let coin = &args.coin.to_string();
 
-    println!("✅ getting coin info: {:?}", coin);
+    println!("✅ fetching coin info: {:?}", coin);
 
     get_coin_price(coin).await;
 
