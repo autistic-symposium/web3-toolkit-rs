@@ -28,6 +28,5 @@ pub async fn get_coin_price(coin_name: &str) {
 
     let currency = "usd";
     let coin_price = get_price(coin_name, currency).await;
-
-    println!("✅ {} price: {}", coin_name, coin_price);
+    println!("      💰 {} price 👉 {}", coin_name, coin_price);
 }
