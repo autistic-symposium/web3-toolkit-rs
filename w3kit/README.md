@@ -1,4 +1,4 @@
-## 🕹 [WIP] w3kit: a web3 toolkit in rust
+## 🕹 w3kit: a web3 toolkit in rust
 <br>
 
 ### tl;dr 
