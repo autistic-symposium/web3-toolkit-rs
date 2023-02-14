@@ -7,8 +7,6 @@
 
 ##### 🛠 **[this package](https://github.com/go-outside-labs/web3-toolkit-rs/tree/main/w3kit)** contains an ongoing crate with a set of scripts for several blockchains (check it at **[crates.io](https://crates.io/crates/w3kit)**).
 
-##### 📚 for a fun in-depth reading about rust, check my mirror post [w3kit: a web3 toolkit in rust]().
-
 ##### 💡 for a rusty boilerplate for running stat searchers, check **[coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**.
 
 <br>
