@@ -3,7 +3,7 @@
 
 ### tl;dr 
 
-
+<br>
 
 ##### 🛠 **[this package](https://github.com/go-outside-labs/web3-toolkit-rs/tree/main/w3kit)** contains an ongoing crate with a set of scripts for several blockchains (check it at **[crates.io](https://crates.io/crates/w3kit)**).
 
@@ -128,6 +128,7 @@ PROVIDER_URL_HTTP=
 ### market
 
 <br>
+
 #### retrieving a coin price
 
 this tool leverages [coingecko api](https://www.coingecko.com/en/api/documentation) for coin info. other markets might be added later.
