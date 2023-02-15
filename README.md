@@ -24,6 +24,11 @@
 
 <br>
 
+* **[🧪 foundry science](https://github.com/go-outside-labs/blockchain-science-py/tree/main/historical-with-foundry)**
+    - leverage foundry and "vm cheatcodes" to analyze evm-based blockchains. 
+    - example: historical data on avalanche c-chain to simulate sandwich attacks in the gmx protocol.
+
+<br>
 
 
 ----
