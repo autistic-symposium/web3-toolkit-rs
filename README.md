@@ -58,10 +58,17 @@
 
 
 #### developing
-
-* [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
 * [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
 * [publishing a crate in crate.ios](https://doc.rust-lang.org/cargo/reference/publishing.html)
+
+
+<br>
+
+#### testings
+
+
+* [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
+* [invariant testing weth with foundry](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw)
 
 
 <br>
