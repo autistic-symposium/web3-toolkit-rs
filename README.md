@@ -64,10 +64,10 @@
 
 <br>
 
-#### testings
-
+#### foundry and tests
 
 * [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
+* [introducing foundry, by paradigm](https://www.paradigm.xyz/2021/12/introducing-the-foundry-ethereum-development-toolbox)
 * [invariant testing weth with foundry](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw)
 
 
