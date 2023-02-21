@@ -17,7 +17,7 @@
 
 <br>
 
-* **[🤖 coingator](https://github.com/go-outside-labs/searcher-coingator-rs)**
+* **[🤖 seacher-kiddor-rs](https://github.com/go-outside-labs/searcher-coingator-rs)**
     - a rusty boilerplate for building and running **statistical searchers**.
     - mirror post: **[bot #4: coingator, a rusty stat searcher](https://mirror.xyz/steinkirch.eth/FiDw34-pTvKidFP3xSeh4UdhJ5ClgvoxKhtlCdQ-I5Q)**.
 
