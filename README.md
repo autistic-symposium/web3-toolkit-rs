@@ -7,7 +7,7 @@
 
 <br>
 
-* **📚 start with [rust tl; dr](rust_tldr.md)**, check **[rust tricks](rust_tricks.md)** at some point, and then read **[rust for searchers: memory, rc, async, arc, tokyo](https://mirror.xyz/steinkirch.eth/Nzlw7ub7HFVa-LnP4kEKeiDtPcmzUkYlI2BJG_StVX8)**.
+* **📚 start with [rust tl; dr](rust_tldr.md)**, check **[rust tricks](rust_tricks.md)** at some point, and then read **[rust for searchers: memory, rc, async, arc, tokio](https://mirror.xyz/steinkirch.eth/Nzlw7ub7HFVa-LnP4kEKeiDtPcmzUkYlI2BJG_StVX8)**.
 
 <br>
 
