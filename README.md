@@ -7,7 +7,7 @@
 
 <br>
 
-* **📚 start with [rust tl; dr](rust_tldr.md)**, check **[rust tricks](rust_tricks.md)** at some point, and then read **[rust for searchers: memory, rc, async, arc, tokio](https://mirror.xyz/steinkirch.eth/Nzlw7ub7HFVa-LnP4kEKeiDtPcmzUkYlI2BJG_StVX8)**.
+* **📚 start with [rust tl; dr](rust_tldr.md)** and then check **[rust tricks](rust_tricks.md)**.
 
 <br>
 
@@ -17,15 +17,9 @@
 
 <br>
 
-* **[🤖 searcher-kiddor-rs](https://github.com/go-outside-labs/searcher-coingator-rs)**
-    - a rusty boilerplate for building and running **statistical searchers**.
-    - mirror post: **[bot #4: coingator, a rusty stat searcher](https://mirror.xyz/steinkirch.eth/FiDw34-pTvKidFP3xSeh4UdhJ5ClgvoxKhtlCdQ-I5Q)**.
-
-<br>
-
-* **[🧪 foundry science](https://github.com/go-outside-labs/blockchain-science-py/)**
-    - leverage foundry and **"vm cheatcodes"** to analyze evm-based blockchains. 
-    - example: historical data on avalanche c-chain to simulate **sandwich attacks in the gmx protocol**.
+* **[📊 blockchain-science-rs](https://github.com/go-outside-labs/blockchain-science-rs)**
+    - on-chain research, foundry science, defi analysis, and bots (rust edition)
+    - example: leveraging foundry to analyze historical data on avalanche c-chain to simulate **sandwich attacks in the gmx protocol**.
 
 <br>
 
