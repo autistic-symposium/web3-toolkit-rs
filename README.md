@@ -7,7 +7,7 @@
 
 <br>
 
-* **📚 start with [rust tl; dr](rust_tldr.md)** and then check **[rust tricks](rust_tricks.md)**.
+* **📚 start with [rust tl; dr](rust_tldr.md)** then check **[rust tricks](rust_tricks.md)**, **[memory management for rust](rust_memory.md)**, and **[async for rust](rust_async.md)**.
 
 <br>
 
