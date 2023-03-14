@@ -52,18 +52,19 @@
 
 
 #### developing
+
 * [beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)
 * [publishing a crate in crate.ios](https://doc.rust-lang.org/cargo/reference/publishing.html)
 
 
 <br>
 
-#### foundry and tests
+#### foundry, tests, and benchmarks
 
 * [cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)
 * [introducing foundry, by paradigm](https://www.paradigm.xyz/2021/12/introducing-the-foundry-ethereum-development-toolbox)
 * [invariant testing weth with foundry](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw)
-
+* [comparison of rust asynch and linux thread switch time](https://github.com/jimblandy/context-switch)
 
 <br>
 
@@ -97,6 +98,7 @@
 <br>
 
 * [ether.js vs. ether-rs mempool stream benchmark](https://github.com/CodeForcer/rust-pending-stream)
+
 
 
 <br>
