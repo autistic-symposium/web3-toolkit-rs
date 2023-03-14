@@ -12,13 +12,13 @@
 <br>
 
 * **[🕹 w3kit](w3kit)**
-    - **w3kit** is an ongoing development of a library for on-chain ops on **several blockchains**.
+    - **w3kit** is an *ongoing* development of a library for on-chain ops on **several blockchains**.
     - this package (crate) is published in **[crates.io](https://crates.io/crates/w3kit)** and can be imported as a library with `cargo add w3kit`.
 
 <br>
 
 * **[📊 blockchain-science-rs](https://github.com/go-outside-labs/blockchain-science-rs)**
-    - on-chain research, foundry science, defi analysis, and bots (rust edition)
+    - *ongoing* on-chain research, foundry science, defi analysis, and bots (rust edition)
     - example: leveraging foundry to analyze historical data on avalanche c-chain to simulate **sandwich attacks in the gmx protocol**.
 
 <br>
