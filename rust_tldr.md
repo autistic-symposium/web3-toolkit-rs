@@ -1,4 +1,4 @@
-## 🤯 rust tl; dr
+## rust tl; dr
 
 <br>
 
