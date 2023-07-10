@@ -11,6 +11,12 @@
 
 <br>
 
+
+* **[📖 algorithms and data structure in rust](https://github.com/go-outside-labs/algorithms-and-data-structures-rs):**
+  - master rust the right way: through classical computer science problems.
+
+<br>
+
 * **[🕹 w3kit](w3kit)**
     - **w3kit** is an *ongoing* development of a library for on-chain ops on **several blockchains**.
     - this package (crate) is published in **[crates.io](https://crates.io/crates/w3kit)** and can be imported as a library with `cargo add w3kit`.
