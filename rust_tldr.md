@@ -20,7 +20,7 @@
 * `::` syntax indicates that the right side is an associated function of the left side (static method)
 * `cargo new` creates a binary; `cargo new --lib`, a library.
 * you can always run `cargo check` to validate your code, folder structure, etc. 
-* you can alwas run `rustc --explain <error>` to understand errors.
+* you can always run `rustc --explain <error>` to understand errors.
 
 
 
@@ -237,7 +237,7 @@ fn foo() -> ! {
 ### projects
 
 * a crate is the smallest amount of code that the compiler considers at time.
-* a package can contain multiple binary crates and optionally one library crate. each binary must have a `main` function. librady crates don't have a `main` function. 
+* a package can contain multiple binary crates and optionally one library crate. each binary must have a `main` function. library crates don't have a `main` function. 
 * most of the times when we say "crate" we mean library crate.
 * a package is a bundle of one or more crates that provide a set of functionality, and contains a `Cargo.toml` describing how to build the crates.
 * when compiling a crate, the compiler first looks in the crate root file (usually src/lib.rs for a library crate or src/main.rs for a binary crate) for code to compile.
