@@ -82,9 +82,9 @@
 
 #### web3-related
 
-* **[web3 ethereum JSON-RPC client](https://crates.io/crates/web3)**
-* **[ethers-provider](https://crates.io/crates/ethers-providers)**
 * **[near api](https://crates.io/crates/near-api-tokio)**
+* **[ethers-provider](https://crates.io/crates/ethers-providers)**
+* **[web3 ethereum JSON-RPC client](https://crates.io/crates/web3)**
 * **[ether.js vs. ether-rs mempool stream benchmark](https://github.com/CodeForcer/rust-pending-stream)**
 * **[ring crate for boringSSL cryptographic primitives](https://briansmith.org/rustdoc/ring/index.html)**
 
