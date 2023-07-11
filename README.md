@@ -27,7 +27,7 @@
 <br>
 
 * **[⚗️ check boilerplate snippets](boilerplates):**
-    - useful boilerplates: **cryptographic primitives, handling files, etc.**
+    - useful boilerplates: **cryptographic primitives, handling files, benchmarking, etc.**
 
 
 <br>
@@ -67,7 +67,7 @@
 * **[cargo book on tests](https://doc.rust-lang.org/cargo/guide/tests.html)**
 * **[introducing foundry, by paradigm](https://www.paradigm.xyz/2021/12/introducing-the-foundry-ethereum-development-toolbox)**
 * **[invariant testing weth with foundry](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw)**
-* **[comparison of rust asynch and linux thread switch time](https://github.com/jimblandy/context-switch)**
+* **[comparison of rust async and linux thread switch time](https://github.com/jimblandy/context-switch)**
 * **[dotenv library for dotenv vars](https://crates.io/crates/dotenv)**
 * **[clap library for menu and argparse](https://docs.rs/clap/latest/clap/)**
 * **[reqwest higher-level HTTP Client.](https://docs.rs/reqwest/latest/reqwest/)**
