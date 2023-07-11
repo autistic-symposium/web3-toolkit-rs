@@ -1,20 +1,17 @@
 ## 🦀 boilerplates for rust projects
 
-<br>
-
-### in this dir
 
 <br>
 
-* **[parse command line arguments](command_line/)**
+* **[parse cli](command_line/)**
 * **[handling tarballs](handling_tarballs/)**
+* **[benchmarking](benchmarking/)**
+* **[command line](command_line/)**
+* **[a julia fractal](fractal/)**
+* **[hmac hash](hmac_hash/)**
+* **[pbkdf2 primitive](pbkdf2/)**
+* **[sha256 primitive](sha256_hash/)**
+* **[hex enc-decoding](hex_encoding/)**
+* **[base64 enc-decoding](base64_encodings)**
 
-<br>
 
----
-
-### external resources
-
-<br>
-
-* **[crate clap for argparser](https://docs.rs/clap/latest/clap/)**
