@@ -10,7 +10,7 @@
 * **📚 [start with rust tl; dr](rust_tldr.md)**, then check some of my on-going notes:
     *  **[rust tricks](rust_tricks.md)**
     *  **[memory management for rust](rust_memory.md)**
-    * **[async for rust](rust_async.md)**.
+    * **[async for rust](rust_async.md)**
 
 <br>
 
@@ -20,13 +20,13 @@
 
 <br>
 
-* **[🕹 use w3kit](w3kit)**
+* **[🕹 use w3kit](w3kit):**
     - **w3kit** is an *ongoing* development of a library for on-chain ops on **several blockchains**.
     - this package (crate) is published in **[crates.io](https://crates.io/crates/w3kit)** and can be imported as a library with `cargo add w3kit`.
 
 <br>
 
-* **[📊 play with blockchain-science-rs](https://github.com/go-outside-labs/blockchain-science-rs)**
+* **[📊 play with blockchain-science-rs](https://github.com/go-outside-labs/blockchain-science-rs):**
     - *ongoing* on-chain research, foundry science, defi analysis, and bots (rust edition)
     - example: leveraging foundry to analyze historical data on avalanche c-chain to simulate **sandwich attacks in the gmx protocol**.
 
@@ -73,12 +73,13 @@
 
 <br>
 
-##### web3-related
+#### web3-related
 
 * [web3](https://crates.io/crates/web3): ethereum JSON-RPC client
 * [ethers-provider](https://crates.io/crates/ethers-providers)
 * [near api](https://crates.io/crates/near-api-tokio)
 * [ether.js vs. ether-rs mempool stream benchmark](https://github.com/CodeForcer/rust-pending-stream)
+* [ring crate for boringSSL cryptographic primitives](https://briansmith.org/rustdoc/ring/index.html)
 
 
 

@@ -1,6 +1,6 @@
 ## 🦀 boilerplates for rust projects
 
-<b>
+<br>
 
 ### in this dir
 

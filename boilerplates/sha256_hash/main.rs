@@ -1,0 +1,1 @@
+We will generate a digest of this text

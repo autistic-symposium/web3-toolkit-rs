@@ -1,5 +1,5 @@
 [package]
-name = "sha256_hash"
+name = "pbkdf2"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,7 +7,4 @@ edition = "2021"
 
 [dependencies]
 data-encoding = "2.4.0"
-num_cpus = "1.16.0"
 ring = "0.16.20"
-threadpool = "1.8.1"
-walkdir = "2.3.3"
