@@ -11,7 +11,7 @@
 * **[hmac hash](hmac_hash/)**
 * **[pbkdf2 primitive](pbkdf2/)**
 * **[sha256 primitive](sha256_hash/)**
-* **[hex enc-decoding](hex_encoding/)**
+* **[hex enc-decoding](hex_encodings/)**
 * **[base64 enc-decoding](base64_encodings/)**
 * **[csv processing](csv_processing/)**
 * **[json processing](json_processing/)**
@@ -22,6 +22,9 @@
 * **[tcp/ip ports](tcp_ports/)**
 * **[exec example](exec_example/)**
 * **[read env variables](env_variables/)**
+* **[regex replacing](regex_replacing/)**
+* **[http get request](http_request)**
+* **[http get request async](http_request_async)**
 
 <br>
 
