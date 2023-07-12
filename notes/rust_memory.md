@@ -1,4 +1,4 @@
-## memory management in rust
+## 🦀 memory management in rust
 
 <br>
 

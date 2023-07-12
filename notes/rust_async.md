@@ -1,4 +1,4 @@
-## async for rust
+## 🦀 async for rust
 
 <br>
 

@@ -23,9 +23,9 @@
 * **[exec example](exec_example/)**
 * **[read env variables](env_variables/)**
 * **[regex replacing](regex_replacing/)**
-* **[http get request](http_request)**
-* **[http get request async](http_request_async)**
-
+* **[http get request](http_request/)**
+* **[http get request async](http_request_async/)**
+* **[progress bar](progress_bar/)
 <br>
 
 run any of these snippets with:
