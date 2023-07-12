@@ -17,7 +17,16 @@
 * **[json processing](json_processing/)**
 * **[file manipulation](file_manipulation/)**
 * **[directory traversal](directory_traversal/)**
-* **[number of cpu cores](cpu_cores)**
+* **[number of cpu cores](cpu_cores/)**
+* **[hashmap and lazy_static](hashmap/)**
+* **[tcp/ip ports](tcp_ports/)**
+* **[exec example](exec_example/)**
+* **[read env variables](env_variables/)**
 
+<br>
 
+run any of these snippets with:
 
+```shell
+cargo run
+```
