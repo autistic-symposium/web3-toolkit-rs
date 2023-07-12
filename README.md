@@ -21,7 +21,7 @@
 <br>
 
 * **[🕹 use w3kit](w3kit):**
-    - **w3kit** is an *ongoing* development of a library for on-chain ops on **several blockchains**.
+    - **w3kit** is an *ongoing* development of a crate for on-chain ops on **several blockchains**.
     - this package (crate) is published in **[crates.io](https://crates.io/crates/w3kit)** and can be imported as a library with `cargo add w3kit`.
 
 <br>
@@ -68,14 +68,15 @@
 * **[introducing foundry, by paradigm](https://www.paradigm.xyz/2021/12/introducing-the-foundry-ethereum-development-toolbox)**
 * **[invariant testing weth with foundry](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw)**
 * **[comparison of rust async and linux thread switch time](https://github.com/jimblandy/context-switch)**
-* **[dotenv library for dotenv vars](https://crates.io/crates/dotenv)**
-* **[clap library for menu and argparse](https://docs.rs/clap/latest/clap/)**
+* **[dotenv array for dotenv vars](https://crates.io/crates/dotenv)**
+* **[clap array for menu and argparse](https://docs.rs/clap/latest/clap/)**
 * **[reqwest higher-level HTTP Client.](https://docs.rs/reqwest/latest/reqwest/)**
-* **[tokio library for async, multi-threading](https://tokio.rs/tokio/tutorial/async)**
-* **[serde framework for serializing](https://serde.rs/)**
-* **[chrono library for date and time](https://docs.rs/chrono/latest/chrono/)**
+* **[tokio crate for async, multi-threading](https://tokio.rs/tokio/tutorial/async)**
+* **[serde crate for serializing](https://serde.rs/)**
+* **[chrono crate for date and time](https://docs.rs/chrono/latest/chrono/)**
 * **[comfy-table pprint beautiful data tables](https://crates.io/crates/comfy-table)**
-* **[once_cell library for single assignments cells](https://crates.io/crates/once_cell)**
+* **[once_cell crate for single assignments cells](https://crates.io/crates/once_cell)**
+* **[ndarray crate for matrices](https://docs.rs/ndarray/0.15.6/ndarray/index.html)**
 
 
 <br>
