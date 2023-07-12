@@ -11,7 +11,7 @@
     * **[rust tricks](notes/rust_tricks.md)**
     * **[async for rust](notes/rust_async.md)**
     * **[memory management for rust](notes/rust_memory.md)**
-    * **[error handling in rust](notes/error_handling.md)
+    * **[error handling in rust](notes/error_handling.md)**
 
 <br>
 
@@ -79,6 +79,7 @@
 * **[once_cell crate for single assignments cells](https://crates.io/crates/once_cell)**
 * **[ndarray crate for matrices](https://docs.rs/ndarray/0.15.6/ndarray/index.html)**
 * **[hashmap crate using a hashing algorithm resistant against hashdos attacks](https://doc.rust-lang.org/std/collections/struct.HashMap.html)**
+* **[anyhow crate provides a trait to customize error handling](https://docs.rs/anyhow/latest/anyhow/)**
 
 
 <br>
