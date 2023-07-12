@@ -15,6 +15,9 @@
 * **[base64 enc-decoding](base64_encodings/)**
 * **[csv processing](csv_processing/)**
 * **[json processing](json_processing/)**
+* **[file manipulation](file_manipulation/)**
+* **[directory traversal](directory_traversal/)**
+* **[number of cpu cores](cpu_cores)**
 
 
 
