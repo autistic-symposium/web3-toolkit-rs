@@ -25,7 +25,11 @@
 * **[regex replacing](regex_replacing/)**
 * **[http get request](http_request/)**
 * **[http get request async](http_request_async/)**
-* **[progress bar](progress_bar/)
+* **[progress bar](progress_bar/)**
+* **[signal handling](signal_handling/)**
+* **[logging](logging)**
+* **[testing](testing)**
+
 <br>
 
 run any of these snippets with:

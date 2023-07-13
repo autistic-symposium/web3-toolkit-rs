@@ -10,8 +10,9 @@
 * **📚 [start with rust tl; dr](notes/rust_tldr.md)**, then check some of my on-going notes:
     * **[rust tricks](notes/rust_tricks.md)**
     * **[async for rust](notes/rust_async.md)**
-    * **[memory management for rust](notes/rust_memory.md)**
-    * **[error handling in rust](notes/error_handling.md)**
+    * **[memory management in rust](notes/rust_memory.md)**
+    * **[error handling in rust](notes/rust_errors.md)**
+    * **[writing tests in rust](notes/rust_tests.md)**
 
 <br>
 
