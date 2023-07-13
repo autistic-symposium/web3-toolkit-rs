@@ -25,8 +25,9 @@
 * **[regex replacing](regex_replacing/)**
 * **[http get request](http_request/)**
 * **[http get request async](http_request_async/)**
-* **[progress bar](progress_bar/)**
+* **[values by reference](references./)**
 * **[signal handling](signal_handling/)**
+* **[progress bar](progress_bar/)**
 * **[logging](logging)**
 * **[testing](testing)**
 
