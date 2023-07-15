@@ -15,7 +15,7 @@
 * **[base64 enc-decoding](base64_encodings/)**
 * **[csv processing](csv_processing/)**
 * **[json processing](json_processing/)**
-* **[file manipulation](file_manipulation/)**
+* **[file handling](file_manipulation/)**
 * **[directory traversal](directory_traversal/)**
 * **[number of cpu cores](cpu_cores/)**
 * **[hashmap and lazy_static](hashmap/)**
@@ -28,6 +28,7 @@
 * **[values by reference](references./)**
 * **[signal handling](signal_handling/)**
 * **[progress bar](progress_bar/)**
+* **[custom debug trait](debug_trait/)
 * **[logging](logging)**
 * **[testing](testing)**
 
