@@ -3,7 +3,7 @@
 <br>
 
 
-### go-outside-labs rust projects
+### our projects
 
 <br>
 
