@@ -1,4 +1,4 @@
-## ⛓️🧰🦀 playing pvp in the metaweb: rust edition
+## ⛓️🧰🦀 rust
 
 <br>
 
