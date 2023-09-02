@@ -1,9 +1,9 @@
-## ⛓️🧰🦀 𝘄𝗲𝗯𝟯 rust
+## ⛓️🧰🦀 𝘄𝗲𝗯𝟯 rust scripts and resources
 
 <br>
 
 
-### our projects
+### my projects
 
 <br>
 
