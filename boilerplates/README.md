@@ -1,5 +1,8 @@
 ## 🦀 boilerplates for rust projects
 
+<br>
+
+#### disclaimer: many of these boilerplates are not my code but i am dumping them here because they are well-known and relevant references.
 
 <br>
 
@@ -28,7 +31,7 @@
 * **[values by reference](references./)**
 * **[signal handling](signal_handling/)**
 * **[progress bar](progress_bar/)**
-* **[custom debug trait](debug_trait/)
+* **[custom debug trait](debug_trait/)**
 * **[logging](logging)**
 * **[testing](testing)**
 
