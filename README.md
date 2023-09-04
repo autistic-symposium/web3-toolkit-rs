@@ -3,10 +3,6 @@
 <br>
 
 
-### my projects
-
-<br>
-
 * **📚 [start with rust tl; dr](notes/rust_tldr.md)**, then check some of my on-going notes:
     * **[rust tricks](notes/rust_tricks.md)**
     * **[async for rust](notes/rust_async.md)**
