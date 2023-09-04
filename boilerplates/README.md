@@ -2,7 +2,7 @@
 
 <br>
 
-#### disclaimer: many of these boilerplates are not my code but i am dumping them here because they are well-known and relevant references.
+#### disclaimer: many of these boilerplates are not my code but i am dumping them here because i use them and they are well-known and relevant references.
 
 <br>
 
