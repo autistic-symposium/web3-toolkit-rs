@@ -10,11 +10,6 @@
     * **[error handling in rust](notes/rust_errors.md)**
     * **[writing tests in rust](notes/rust_tests.md)**
 
-<br>
-
-
-* **[📖 learn algorithms and data structure in rust](https://github.com/go-outside-labs/algorithms-and-data-structures-rs):**
-  - **master rust the right way**: through classical computer science problems.
 
 <br>
 
