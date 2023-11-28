@@ -1,4 +1,4 @@
-## ⛓️🧰🦀 𝘄𝗲𝗯𝟯 rust scripts and resources
+## ⛓️🧰🦀 𝘄𝗲𝗯𝟯 rust scripts && resources
 
 <br>
 
