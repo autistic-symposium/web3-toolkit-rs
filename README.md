@@ -1,44 +1,26 @@
-## ⛓️🧰🦀 𝘄𝗲𝗯𝟯 rust scripts && resources
+## ⛓️🧰🦀 web3 toolkit - rust edition
 
 <br>
 
 
-* **📚 [start with rust tl; dr](notes/rust_tldr.md)**, then check some of my on-going notes:
+* **[a tl;dr to get started with rust](notes/rust_tldr.md)**
+* then check these *ongoing* notes:
     * **[rust tricks](notes/rust_tricks.md)**
     * **[async for rust](notes/rust_async.md)**
     * **[memory management in rust](notes/rust_memory.md)**
     * **[error handling in rust](notes/rust_errors.md)**
     * **[writing tests in rust](notes/rust_tests.md)**
 
+* **[w3kit](w3kit)**: (*ongoing*) development of a crate for on-chain ops on **several blockchains** (published at **[crates.io](https://crates.io/crates/w3kit)** so it can be imported as a library with `cargo add w3kit`)
+* **[boilerplate snippets](boilerplates)**: cryptographic primitives, handling files, benchmarking, etc.
 
-<br>
-
-* **[🕹 use w3kit](w3kit):**
-    - **w3kit** is an *ongoing* development of a crate for on-chain ops on **several blockchains**.
-    - this package (crate) is published in **[crates.io](https://crates.io/crates/w3kit)** and can be imported as a library with `cargo add w3kit`.
-
-<br>
-
-* **[⚗️ check boilerplate snippets](boilerplates):**
-    - useful boilerplates: **cryptographic primitives, handling files, benchmarking, etc.**
-
-
-<br>
-
-* **[📊 play with blockchain-science-rs](https://github.com/go-outside-labs/blockchain-science-rs):**
-    - *ongoing* on-chain research, foundry science, defi analysis, and bots (rust edition)
-    - example: leveraging foundry to analyze historical data on avalanche c-chain to simulate **sandwich attacks in the gmx protocol**.
 
 <br>
 
 
 ----
 
-### external resources
-
-<br>
-
-#### learning
+#### external resources
 
 * **[installing guide](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/)**
 * **[cargo dep manager and build tool](https://doc.rust-lang.org/cargo/)**
@@ -49,11 +31,7 @@
 * **[ethereum foundation on rust](https://ethereum.org/en/developers/docs/programming-languages/rust/)**
 * **[google rust course](https://github.com/google/comprehensive-rust)**
 
-
-<br>
-
-
-#### developing
+##### developing
 
 * **[beginner's guide to error handling in rust](https://www.sheshbabu.com/posts/rust-error-handling/)**
 * **[publishing a crate in crate.ios](https://doc.rust-lang.org/cargo/reference/publishing.html)**
@@ -73,11 +51,9 @@
 * **[hashmap crate using a hashing algorithm resistant against hashdos attacks](https://doc.rust-lang.org/std/collections/struct.HashMap.html)**
 * **[anyhow crate provides a trait to customize error handling](https://docs.rs/anyhow/latest/anyhow/)**
 
+##### web3-related
 
-<br>
-
-#### web3-related
-
+* **[blockchain-science-rs](https://github.com/autistic-symposium/blockchain-science-rs):** *ongoing* on-chain research, foundry science, defi analysis, and bots
 * **[near api](https://crates.io/crates/near-api-tokio)**
 * **[ethers-provider](https://crates.io/crates/ethers-providers)**
 * **[web3 ethereum JSON-RPC client](https://crates.io/crates/web3)**
